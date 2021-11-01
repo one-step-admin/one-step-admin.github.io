@@ -82,7 +82,7 @@
 		<td align="center">✔️</td>
 	</tr>
 	<tr>
-		<td align="center">窗口右键操作菜单</td>
+		<td align="center">窗口右键相关操作</td>
 		<td align="center"></td>
 		<td align="center">✔️</td>
 	</tr>

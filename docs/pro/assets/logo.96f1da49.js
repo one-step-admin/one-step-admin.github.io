@@ -1,9 +1,9 @@
 
 /**
- * 由 Fantastic-admin 提供技术支持
- * https://hooray.gitee.io/fantastic-admin/
- * Powered by Fantastic-admin
- * https://hooray.github.io/fantastic-admin/
+ * 由 Fantastic-admin-discovery 提供技术支持
+ * https://hooray.gitee.io/fantastic-admin-discovery/
+ * Powered by Fantastic-admin-discovery
+ * https://hooray.github.io/fantastic-admin-discovery/
  */
     
 var s="./assets/logo.eb12b828.png";export{s as _};

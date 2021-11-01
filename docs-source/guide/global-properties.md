@@ -21,7 +21,7 @@ this.$auth
 this.$authAll
 ```
 
-### 窗口 <Badge type="tip" text="专业版" vertical="top" />
+### 窗口
 
 #### 新增窗口
 
@@ -40,13 +40,13 @@ this.$window.add({
 this.$window.remove('windowName')
 ```
 
-#### 窗口全屏切换
+#### 窗口全屏切换 <Badge type="tip" text="专业版" vertical="top" />
 
 ```js:no-line-numbers
 this.$window.toggleMaximize('windowName')
 ```
 
-#### 判断窗口是否全屏
+#### 判断窗口是否全屏 <Badge type="tip" text="专业版" vertical="top" />
 
 ```js:no-line-numbers
 this.$window.isMaximize('windowName')  // true / false

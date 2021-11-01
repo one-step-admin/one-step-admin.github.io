@@ -1,0 +1,9 @@
+
+/**
+ * 由 Fantastic-admin-discovery 提供技术支持
+ * https://hooray.gitee.io/fantastic-admin-discovery/
+ * Powered by Fantastic-admin-discovery
+ * https://hooray.github.io/fantastic-admin-discovery/
+ */
+    
+import{a1 as p,a4 as m,r as c,o as s,I as r,l as t,U as o,M as i,j as l,a5 as g,Y as b,X as _,i as f}from"./vendor.6b4522dc.js";import v from"./index.e3965937.js";import S from"./index.217421a8.js";import{_ as $}from"./plugin-vue_export-helper.5a098b48.js";import"./logo.96f1da49.js";import"./index.7fb28950.js";const h=p({name:"SubSidebar"});function j(y){const a=m(0);function d(e){a.value=e.target.scrollTop}return(e,M)=>{const u=c("el-menu");return["side","head","single"].includes(e.$store.state.settings.menuMode)?(s(),r("div",{key:0,class:o(["sub-sidebar-container",{"is-collapse":e.$store.state.settings.sidebarCollapse}]),onScroll:d},[t(v,{"show-logo":e.$store.state.settings.menuMode==="single",class:o({"sidebar-logo":!0,"sidebar-logo-bg":e.$store.state.settings.menuMode==="single",shadow:a.value})},null,8,["show-logo","class"]),i(" \u4FA7\u8FB9\u680F\u6A21\u5F0F\uFF08\u65E0\u4E3B\u5BFC\u822A\uFF09\u6216\u4FA7\u8FB9\u680F\u7CBE\u7B80\u6A21\u5F0F "),t(u,{"unique-opened":e.$store.state.settings.sidebarUniqueOpened,collapse:e.$store.state.settings.sidebarCollapse,"collapse-transition":!1,class:o({"is-collapse-without-logo":e.$store.state.settings.menuMode!=="single"&&e.$store.state.settings.sidebarCollapse,"menu-radius":e.$store.state.settings.menuStyle==="radius"})},{default:l(()=>[t(g,{name:"sub-sidebar"},{default:l(()=>[(s(!0),r(b,null,_(e.$store.getters["menu/sidebarMenus"],n=>(s(),f(S,{key:JSON.stringify(n),item:n},null,8,["item"]))),128))]),_:1})]),_:1},8,["unique-opened","collapse","class"])],34)):i("v-if",!0)}}const C=Object.assign(h,{setup:j});var O=$(C,[["__scopeId","data-v-a1a55794"]]);export{O as default};
