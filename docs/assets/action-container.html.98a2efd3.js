@@ -1,0 +1,1 @@
+const t={key:"v-51e54ba2",path:"/components/action-container.html",title:"ActionContainer 固定底部操作栏",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Slot",slug:"slot",children:[]}],filePathRelative:"components/action-container.md",git:{updatedTime:163576931e4,contributors:[{name:"hooray",email:"304327508@qq.com",commits:1}]}};export{t as data};

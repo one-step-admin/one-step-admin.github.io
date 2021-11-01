@@ -1,7 +1,7 @@
 # 购买专业版
 
 :::tip 购买专业版并点 ⭐ 可返现 200 元
-购买专业版后，分别在 [![star](https://img.shields.io/github/stars/hooray/fantastic-admin-discovery?style=social)](https://github.com/hooray/fantastic-admin-discovery/stargazers) 和 [![star](https://gitee.com/hooray/fantastic-admin-discovery/badge/star.svg?theme=dark)](https://gitee.com/hooray/fantastic-admin-discovery/stargazers) 给仓库点 ⭐，可返现 200 元（联系作者并提供相关截图即可）。
+购买专业版后，分别在 [![star](https://img.shields.io/github/stars/hooray/fantastic-admin-discovery?style=social)](https://github.com/hooray/fantastic-admin-discovery/stargazers) 和 [![star](https://gitee.com/hooray/fantastic-admin-discovery/badge/star.svg?theme=dark)](https://gitee.com/hooray/fantastic-admin-discovery/stargazers) 给仓库点 ⭐，可返现 200 元（联系作者并提供相关截图即可），活动截止至 2021 年 12 月 31 日。
 :::
 
 ## 购买说明
@@ -20,9 +20,6 @@
 
 <table style="display: table; margin: 1rem auto;">
 	<tr>
-		<th colspan="2" width="400" align="center">Vue3 专业版</th>
-	</tr>
-	<tr>
 		<td colspan="2" align="center"><b style="color: #ff4400;">￥<span style="font-size: 24px;">696.</span>00</b></td>
 	</tr>
 	<tr>
@@ -39,10 +36,7 @@
 
 <table style="display: table; margin: 1rem auto;">
 	<tr>
-		<th rowspan="2" width="200" align="center">⭐功能与服务⭐</th>
-		<th colspan="2" width="400" align="center">Vue3 版本</th>
-	</tr>
-	<tr>
+		<th width="200" align="center">⭐功能与服务⭐</th>
 		<th width="200" align="center">基础版</th>
 		<th width="200" align="center">专业版</th>
 	</tr>
@@ -172,7 +166,7 @@
 	</tr>
 </table>
 
-## 什么场景需要 Fantastic-admin
+## 什么场景需要 Fantastic-admin (探索版)
 
 - **没有前端开发人员的小型公司。** 据了解，有些小型公司没有前端开发人员，而这些公司在开发中后台系统的时候，直接要求后端开发人员来进行开发工作。所以借助 Vue 的易学习易上手特性，再加上本框架的加持，可以让后端开发人员能在短时间内转型成为全栈开发。
 - **前端开发人员不足的中小型公司。** 根据招聘网站统计，几乎所有公司都缺前端，其中有很大一部分中小型公司标配只有1-2名前端开发人员，而这些公司在开发中后台系统的时候，如果能有一套现成的中后台框架系统，不仅能提高项目开发效率，同时还大大减轻前端开发人员工作压力。
@@ -180,7 +174,7 @@
 - **产品型公司。** 产品型公司最担心的就是产品开发中代码不可控的因素，本框架除了提供完善的开发文档和代码注释外，作者还提供一对一的技术支持，确保开发人员尽可能理解整套框架源码的方方面面，为产品保驾护航。
 - **个人开发者。** 手里有一套可高度定制化的中后台框架，什么项目都不用担心啦~
 
-## 为什么选择 Fantastic-admin-discovery
+## 为什么选择 Fantastic-admin (探索版)
 
 - **作者拥有10年+的前后端开发经验。** 部分框架的作者由于天然缺少后端开发经验，可能会在设计框架的时候，很少或者没有考虑后端的实现逻辑，导致框架在实际使用中，业务场景无法落地，开发人员得通过修改源码自行实现业务。
 - **丰富的组件库。** 除了支持 Element Plus 自带的组件外，框架还扩充了部分业务组件，以及第三方插件。借助以往的项目经验，提供最佳实践方案，方便开发人员直接使用。
