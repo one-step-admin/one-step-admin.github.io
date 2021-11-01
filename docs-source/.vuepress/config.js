@@ -82,11 +82,11 @@ module.exports = {
 				children: [
 					{
 						text: 'Gitee',
-						link: 'https://gitee.com/hooray/fantastic-admin'
+						link: 'https://gitee.com/hooray/fantastic-admin-discovery'
 					},
 					{
 						text: 'Github',
-						link: 'https://github.com/hooray/fantastic-admin'
+						link: 'https://github.com/hooray/fantastic-admin-discovery'
 					}
 				]
 			},
@@ -162,7 +162,7 @@ module.exports = {
 						'page-header.md',
 						'page-main.md',
 						'result.md',
-						'fixed-action-bar.md',
+						'action-container.md',
 						'search-bar.md',
 						'batch-action-bar.md',
 						'image-upload.md',

@@ -1,7 +1,7 @@
 # 购买专业版
 
-:::tip 点 ⭐ 可得专业版源码
-购买 Vue3 专业版，并分别在 [![star](https://img.shields.io/github/stars/hooray/fantastic-admin?style=social)](https://github.com/hooray/fantastic-admin/stargazers) 和 [![star](https://gitee.com/hooray/fantastic-admin/badge/star.svg?theme=dark)](https://gitee.com/hooray/fantastic-admin/stargazers) 给仓库点 ⭐，可免费获得 Vue2 专业版（联系作者并提供相关截图即可）。
+:::tip 购买专业版并点 ⭐ 可返现 200 元
+购买专业版后，分别在 [![star](https://img.shields.io/github/stars/hooray/fantastic-admin-discovery?style=social)](https://github.com/hooray/fantastic-admin-discovery/stargazers) 和 [![star](https://gitee.com/hooray/fantastic-admin-discovery/badge/star.svg?theme=dark)](https://gitee.com/hooray/fantastic-admin-discovery/stargazers) 给仓库点 ⭐，可返现 200 元（联系作者并提供相关截图即可）。
 :::
 
 ## 购买说明
@@ -20,30 +20,18 @@
 
 <table style="display: table; margin: 1rem auto;">
 	<tr>
-		<th colspan="2" width="400" align="center">Vue2 专业版</th>
 		<th colspan="2" width="400" align="center">Vue3 专业版</th>
 	</tr>
 	<tr>
-		<td colspan="2" align="center"><b style="color: #ff4400;">￥<span style="font-size: 24px;">596.</span>00</b></td>
-		<td colspan="2" align="center"><b style="color: #ff4400;">￥<span style="font-size: 24px;">796.</span>00</b></td>
+		<td colspan="2" align="center"><b style="color: #ff4400;">￥<span style="font-size: 24px;">696.</span>00</b></td>
 	</tr>
 	<tr>
 		<td align="center">
-			<img :src="$withBase('/qrcode-wechat-vue2.png')" />
+			<img :src="$withBase('/qrcode-wechat.png')" width="200" />
 		</td>
 		<td align="center">
-			<img :src="$withBase('/qrcode-alipay-vue2.png')" />
+			<img :src="$withBase('/qrcode-alipay.png')" width="200" />
 		</td>
-		<td align="center">
-			<img :src="$withBase('/qrcode-wechat-vue3.png')" />
-		</td>
-		<td align="center">
-			<img :src="$withBase('/qrcode-alipay-vue3.png')" />
-		</td>
-	</tr>
-	<tr>
-		<td colspan="2" align="center">不支持补差价升级</td>
-		<td colspan="2" align="center">/</td>
 	</tr>
 </table>
 
@@ -52,74 +40,70 @@
 <table style="display: table; margin: 1rem auto;">
 	<tr>
 		<th rowspan="2" width="200" align="center">⭐功能与服务⭐</th>
-		<th colspan="2" width="400" align="center">Vue2 版本</th>
 		<th colspan="2" width="400" align="center">Vue3 版本</th>
 	</tr>
 	<tr>
-		<th align="center">基础版</th>
-		<th align="center">专业版</th>
-		<th align="center">基础版</th>
-		<th align="center">专业版</th>
+		<th width="200" align="center">基础版</th>
+		<th width="200" align="center">专业版</th>
 	</tr>
 	<tr>
 		<td align="center">长期维护更新，提供新特性</td>
-		<td colspan="2" align="center"></td>
 		<td colspan="2" align="center">✔️</td>
 	</tr>
 	<tr>
 		<td align="center">定期修复 bug</td>
 		<td colspan="2" align="center">✔️</td>
-		<td colspan="2" align="center">✔️</td>
 	</tr>
 	<tr>
 		<td align="center">开发与构建工具</td>
-		<td colspan="2" align="center">vue-cli 4.x</td>
 		<td colspan="2" align="center">vite 2.x</td>
 	</tr>
 	<tr>
 		<td align="center">UI 组件库</td>
-		<td colspan="2" align="center">Element UI</td>
 		<td colspan="2" align="center">Element Plus</td>
 	</tr>
 	<tr>
 		<td align="center">页面布局</td>
 		<td align="center">3 套</td>
-		<td align="center" style="color: #e34d22;">12 套</td>
-		<td align="center">3 套</td>
-		<td align="center" style="color: #e34d22;">20 套</td>
+		<td align="center" style="color: #e34d22;">5 套</td>
 	</tr>
 	<tr>
 		<td align="center">主题风格</td>
 		<td align="center">1 款</td>
 		<td align="center" style="color: #e34d22;">6 款</td>
-		<td align="center">1 款</td>
-		<td align="center" style="color: #e34d22;">6 款</td>
 	</tr>
 	<tr>
-		<td align="center">导航路由配置项</td>
-		<td align="center">6 个</td>
-		<td align="center" style="color: #e34d22;">12 个</td>
-		<td align="center">8 个</td>
-		<td align="center" style="color: #e34d22;">15 个</td>
+		<td align="center">导航菜单配置项</td>
+		<td align="center">5 个</td>
+		<td align="center" style="color: #e34d22;">8 个</td>
 	</tr>
 	<tr>
 		<td align="center">外链导航</td>
 		<td align="center">✔️</td>
 		<td align="center">✔️</td>
+	</tr>
+	<tr>
+		<td align="center">窗口操作函数</td>
+		<td align="center">支持部分</td>
+		<td align="center">✔️</td>
+	</tr>
+	<tr>
+		<td align="center">窗口右键操作菜单</td>
+		<td align="center"></td>
+		<td align="center">✔️</td>
+	</tr>
+	<tr>
+		<td align="center">窗口预览模式</td>
 		<td align="center">✔️</td>
 		<td align="center">✔️</td>
 	</tr>
 	<tr>
-		<td align="center">内嵌导航</td>
-		<td align="center"></td>
-		<td align="center">✔️</td>
+		<td align="center">窗口专注模式</td>
 		<td align="center"></td>
 		<td align="center">✔️</td>
 	</tr>
 	<tr>
-		<td align="center">Tab 标签栏</td>
-		<td align="center"></td>
-		<td align="center">✔️</td>
+		<td align="center">窗口拖拽排序</td>
 		<td align="center"></td>
 		<td align="center">✔️</td>
 	</tr>
@@ -127,13 +111,9 @@
 		<td align="center">全方位权限验证</td>
 		<td align="center">✔️</td>
 		<td align="center">✔️</td>
-		<td align="center">✔️</td>
-		<td align="center">✔️</td>
 	</tr>
 	<tr>
 		<td align="center">扩展组件</td>
-		<td align="center">12 个</td>
-		<td align="center" style="color: #e34d22;">18 个</td>
 		<td align="center">12 个</td>
 		<td align="center" style="color: #e34d22;">18 个</td>
 	</tr>
@@ -141,13 +121,9 @@
 		<td align="center">国际化</td>
 		<td align="center"></td>
 		<td align="center">✔️</td>
-		<td align="center"></td>
-		<td align="center">✔️</td>
 	</tr>
 	<tr>
 		<td align="center">Mock 数据</td>
-		<td align="center">✔️</td>
-		<td align="center">✔️</td>
 		<td align="center">✔️</td>
 		<td align="center">✔️</td>
 	</tr>
@@ -155,13 +131,9 @@
 		<td align="center">错误日志上报</td>
 		<td align="center"></td>
 		<td align="center">✔️</td>
-		<td align="center"></td>
-		<td align="center">✔️</td>
 	</tr>
 	<tr>
 		<td align="center">文件自动生成</td>
-		<td align="center">支持部分</td>
-		<td align="center">✔️</td>
 		<td align="center">支持部分</td>
 		<td align="center">✔️</td>
 	</tr>
@@ -169,20 +141,14 @@
 		<td align="center">业务应用静态页面</td>
 		<td align="center"></td>
 		<td align="center">✔️</td>
-		<td align="center"></td>
-		<td align="center">✔️</td>
 	</tr>
 	<tr>
 		<td align="center">团队代码规范</td>
 		<td align="center">✔️</td>
 		<td align="center">✔️</td>
-		<td align="center">✔️</td>
-		<td align="center">✔️</td>
 	</tr>
 	<tr>
 		<td align="center">框架版权信息</td>
-		<td align="center">需保留</td>
-		<td align="center">可删除</td>
 		<td align="center">需保留</td>
 		<td align="center">可删除</td>
 	</tr>
@@ -194,22 +160,14 @@
 		<td align="center">作者一对一技术支持</td>
 		<td align="center"></td>
 		<td align="center">✔️</td>
-		<td align="center"></td>
-		<td align="center">✔️</td>
 	</tr>
 	<tr>
 		<td align="center">演示地址</td>
 		<td align="center">
-			<a href="vue2/basic" target="_blank">访问</a>
+			<a href="basic" target="_blank">访问</a>
 		</td>
 		<td align="center">
-			<a href="vue2/pro" target="_blank">访问</a>
-		</td>
-		<td align="center">
-			<a href="vue3/basic" target="_blank">访问</a>
-		</td>
-		<td align="center">
-			<a href="vue3/pro" target="_blank">访问</a>
+			<a href="pro" target="_blank">访问</a>
 		</td>
 	</tr>
 </table>
@@ -222,10 +180,9 @@
 - **产品型公司。** 产品型公司最担心的就是产品开发中代码不可控的因素，本框架除了提供完善的开发文档和代码注释外，作者还提供一对一的技术支持，确保开发人员尽可能理解整套框架源码的方方面面，为产品保驾护航。
 - **个人开发者。** 手里有一套可高度定制化的中后台框架，什么项目都不用担心啦~
 
-## 为什么选择 Fantastic-admin
+## 为什么选择 Fantastic-admin-discovery
 
 - **作者拥有10年+的前后端开发经验。** 部分框架的作者由于天然缺少后端开发经验，可能会在设计框架的时候，很少或者没有考虑后端的实现逻辑，导致框架在实际使用中，业务场景无法落地，开发人员得通过修改源码自行实现业务。
-- **经历过数十个真实项目的打磨。** 没用在真实业务场景中使用过的框架都是纸飞机，哪怕它提供的演示功能特别华丽。而本框架在作者就职的公司，已经稳定应用在电商、直播、OA、CRM、ERP等多个不同领域的中后台系统中。
-- **丰富的组件库。** 除了支持 ElementUI / Element Plus 自带的组件外，框架还扩充了部分业务组件，以及第三方插件。借助以往的项目经验，提供最佳实践方案，方便开发人员直接使用。
+- **丰富的组件库。** 除了支持 Element Plus 自带的组件外，框架还扩充了部分业务组件，以及第三方插件。借助以往的项目经验，提供最佳实践方案，方便开发人员直接使用。
 - **持续更新的业务应用静态页面。** 通过项目积累，沉淀出数十个业务应用的静态页面，做到开发人员拿来即可使用，极大提升开发效率的同时，还省去了产品和设计人员的工作。
 - **长期维护。** 无论是免费的基础版，还是付费的专业版，均提供长期维护。区别在于基础版侧重于稳定性维护，主要在修复 bug ，不定期增加新特性；专业版侧重于新特性开发，在确保稳定的基础上，会长期深挖中后台系统框架，持续产出可落地的特性或开发规范。

@@ -91,6 +91,12 @@ const menu = [
 | :----: | :------: | :---------------------- |
 | string |    ✖️     | 标题国际化对应的 key 值 |
 
+### noTitle <Badge type="tip" text="专业版" vertical="top" />
+
+|  类型   | 是否必须 | 说明               |
+| :-----: | :------: | :----------------- |
+| boolean |    ✖️     | 是否显示窗口标题栏 |
+
 ### icon
 
 |  类型  | 是否必须 | 说明                                               |
@@ -130,7 +136,7 @@ icon: 'ri-star-fill'
 badge: () => store.state.global.number
 ```
 
-### params <Badge type="tip" text="专业版" vertical="top" />
+### params
 
 |  类型  | 是否必须 | 说明             |
 | :----: | :------: | :--------------- |
