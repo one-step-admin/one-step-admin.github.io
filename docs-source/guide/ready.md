@@ -20,17 +20,17 @@
 ::: code-group-item 从 Gitee 克隆
 ```bash:no-line-numbers
 # 拉取演示源码
-git clone -b discovery https://gitee.com/hooray/fantastic-admin.git
+git clone https://gitee.com/hooray/fantastic-admin-discovery.git
 # 拉取框架源码
-git clone -b template-discovery https://gitee.com/hooray/fantastic-admin.git
+git clone -b template https://gitee.com/hooray/fantastic-admin-discovery.git
 ```
 :::
 ::: code-group-item 从 Github 克隆
 ```bash:no-line-numbers
 # 拉取演示源码
-git clone -b discovery https://github.com/hooray/fantastic-admin.git
+git clone https://github.com/hooray/fantastic-admin-discovery.git
 # 拉取框架源码
-git clone -b template-discovery https://github.com/hooray/fantastic-admin.git
+git clone -b template https://github.com/hooray/fantastic-admin-discovery.git
 ```
 :::
 ::::
