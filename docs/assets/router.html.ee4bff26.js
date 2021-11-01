@@ -1,0 +1,1 @@
+const e={key:"v-71c50ac4",path:"/guide/router.html",title:"路由",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"免登录页面",slug:"免登录页面",children:[]}],filePathRelative:"guide/router.md",git:{updatedTime:1635732271e3,contributors:[{name:"hooray",email:"304327508@qq.com",commits:1}]}};export{e as data};

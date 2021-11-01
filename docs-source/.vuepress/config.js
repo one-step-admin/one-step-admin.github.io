@@ -182,14 +182,14 @@ module.exports = {
 			]
 		}
 	},
-	plugins: [
-		['@vuepress/plugin-docsearch', {
-			apiKey: '1a963d3300ae4934911e321fb6eba267',
-			indexName: 'fantastic-admin',
-			placeholder: '搜索',
-			searchParameters: {
-				facetFilters: ['lang:zh-CN']
-			}
-		}]
-	]
+	// plugins: [
+	// 	['@vuepress/plugin-docsearch', {
+	// 		apiKey: '1a963d3300ae4934911e321fb6eba267',
+	// 		indexName: 'fantastic-admin',
+	// 		placeholder: '搜索',
+	// 		searchParameters: {
+	// 			facetFilters: ['lang:zh-CN']
+	// 		}
+	// 	}]
+	// ]
 }

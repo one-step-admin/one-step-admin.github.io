@@ -1,0 +1,9 @@
+
+/**
+ * 由 Fantastic-admin-discovery 提供技术支持
+ * https://hooray.gitee.io/fantastic-admin-discovery/
+ * Powered by Fantastic-admin-discovery
+ * https://hooray.github.io/fantastic-admin-discovery/
+ */
+    
+.header-enter-active[data-v-66866350]{transition:.2s}.header-enter-from[data-v-66866350]{transform:translateY(-70px)}header[data-v-66866350]{position:fixed;z-index:1000;top:0;left:0;right:0;display:flex;align-items:center;padding:0 20px;height:70px;color:#fff;background-color:#222b45}header .header-container[data-v-66866350]{width:100%;height:100%;margin:0 auto;display:flex;align-items:center;justify-content:space-between}header .header-container .main[data-v-66866350]{flex:1;display:flex;align-items:center;height:100%}header[data-v-66866350] .title{position:relative;width:inherit;height:inherit;padding:inherit;background-color:inherit}header[data-v-66866350] .title .logo{width:50px;height:50px}header[data-v-66866350] .title span{font-size:24px;letter-spacing:1px;color:#fff}header .nav[data-v-66866350]{display:flex;height:100%;margin-left:50px}header .nav .item[data-v-66866350]{display:flex;align-items:center;justify-content:center;flex-direction:column;padding:0 5px;width:80px;cursor:pointer;transition:all .3s;color:#ccc;background-color:#222b45}header .nav .item[data-v-66866350]:hover{color:#fff;background-color:#334067}header .nav .item.active[data-v-66866350]{color:#fff;background-color:#334067}header .nav .item .icon[data-v-66866350]{font-size:24px;vertical-align:middle}header .nav .item .icon+span[data-v-66866350]{vertical-align:middle;display:box;-webkit-box-orient:vertical;-webkit-line-clamp:1;overflow:hidden}header[data-v-66866350] .user{padding:0}header[data-v-66866350] .user .tools [class^=ri-]{color:#fff}header[data-v-66866350] .user .user-container{font-size:16px;color:#fff}

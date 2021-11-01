@@ -1,0 +1,1 @@
+const e={key:"v-2e18967d",path:"/guide/window.html",title:"窗口",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],filePathRelative:"guide/window.md",git:{updatedTime:1635732271e3,contributors:[{name:"hooray",email:"304327508@qq.com",commits:1}]}};export{e as data};
