@@ -121,6 +121,8 @@ module.exports = {
 						'layout.md',
 						'theme.md',
 						'menu.md',
+						'window.md',
+						'router.md',
 						'axios.md',
 						'vuex.md',
 						'global-resources.md',
