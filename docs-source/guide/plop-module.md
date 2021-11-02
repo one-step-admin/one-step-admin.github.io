@@ -67,7 +67,7 @@ const { pagination, getParams, onSizeChange, onCurrentChange, onSortChange } = u
 
 接着在 `data` 里存放的是标准模块提供的一些配置项和必要数据参数字段。
 
-```js:no-line-numbers {9,25}
+```js:no-line-numbers {8,24}
 const data = ref({
     loading: false,
     /**
