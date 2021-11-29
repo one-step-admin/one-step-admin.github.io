@@ -1,9 +1,0 @@
-
-/**
- * 由 Fantastic-admin-discovery 提供技术支持
- * https://hooray.gitee.io/fantastic-admin-discovery/
- * Powered by Fantastic-admin-discovery
- * https://hooray.github.io/fantastic-admin-discovery/
- */
-    
-.buy-it[data-v-38bf9a48]{position:fixed;z-index:10;right:-58px;top:50%;margin-top:-170px;width:70px;display:flex;flex-direction:column;transition:right .3s}.buy-it.actived[data-v-38bf9a48],.buy-it[data-v-38bf9a48]:hover{right:0}.buy-it .item[data-v-38bf9a48]{display:flex;flex-direction:column;justify-content:center;height:70px;text-align:center;color:#fff;background-color:#409eff;border-bottom:1px solid #fff;transition:.3s;opacity:70%;cursor:pointer}.buy-it .item[data-v-38bf9a48]:hover{opacity:100%}.buy-it .item[data-v-38bf9a48]:first-child{border-top-left-radius:5px}.buy-it .item[data-v-38bf9a48]:last-child{border-bottom-left-radius:5px;border-bottom:0}.buy-it .item.chat[data-v-38bf9a48]{background-color:#0fcc1a}.buy-it .item.buy[data-v-38bf9a48]{background-color:#ff4200}.buy-it .item.doc[data-v-38bf9a48]{background-color:#727272}.buy-it .item.code[data-v-38bf9a48]{background-color:#343b42}.buy-it .item i[data-v-38bf9a48]{display:block;margin:0 auto;font-size:20px}.buy-it .item .title[data-v-38bf9a48]{display:inline-block;font-size:12px}

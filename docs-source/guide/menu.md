@@ -40,7 +40,7 @@ export default {
 ```js:no-line-numbers
 export default {
     title: '官网',
-    windowName: 'https://hooray.gitee.io/fantastic-admin-discovery/'
+    windowName: 'https://hooray.gitee.io/one-step-admin/'
 }
 ```
 

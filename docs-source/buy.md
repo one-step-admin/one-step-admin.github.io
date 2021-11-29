@@ -1,7 +1,7 @@
 # 购买专业版
 
 :::tip 购买专业版并点 ⭐ 可返现 200 元
-购买专业版后，分别在 [![star](https://img.shields.io/github/stars/hooray/fantastic-admin-discovery?style=social)](https://github.com/hooray/fantastic-admin-discovery/stargazers) 和 [![star](https://gitee.com/hooray/fantastic-admin-discovery/badge/star.svg?theme=dark)](https://gitee.com/hooray/fantastic-admin-discovery/stargazers) 给仓库点 ⭐，可返现 200 元（联系作者并提供相关截图即可），活动截止至 2021 年 12 月 31 日。
+购买专业版后，分别在 [![star](https://img.shields.io/github/stars/hooray/one-step-admin?style=social)](https://github.com/hooray/one-step-admin/stargazers) 和 [![star](https://gitee.com/hooray/one-step-admin/badge/star.svg?theme=dark)](https://gitee.com/hooray/one-step-admin/stargazers) 给仓库点 ⭐，可返现 200 元（联系作者并提供相关截图即可），活动截止至 2021 年 12 月 31 日。
 :::
 
 ## 购买说明

@@ -1,11 +1,11 @@
 # 文档说明
 
 ::: tip ⭐⭐⭐⭐⭐
-相信你已经准备或正在使用 Fantastic-admin (探索版) 进行开发工作了，在此之前，希望你可以去 **Github** 或者 **Gitee(码云)** 帮我点个 ⭐ ，这将是对我极大的鼓励。
+相信你已经准备或正在使用 One-step-admin 进行开发工作了，在此之前，希望你可以去 **Github** 或者 **Gitee(码云)** 帮我点个 ⭐ ，这将是对我极大的鼓励。
 
-[![star](https://img.shields.io/github/stars/hooray/fantastic-admin-discovery?style=social)](https://github.com/hooray/fantastic-admin-discovery/stargazers)
+[![star](https://img.shields.io/github/stars/hooray/one-step-admin?style=social)](https://github.com/hooray/one-step-admin/stargazers)
 
-[![star](https://gitee.com/hooray/fantastic-admin-discovery/badge/star.svg?theme=dark)](https://gitee.com/hooray/fantastic-admin-discovery/stargazers)
+[![star](https://gitee.com/hooray/one-step-admin/badge/star.svg?theme=dark)](https://gitee.com/hooray/one-step-admin/stargazers)
 :::
 
 文档中标记 <Badge type="tip" text="专业版" vertical="top" /> 的地方，表示该功能仅提供于专业版使用，使用基础版的开发者可直接跳过阅读。

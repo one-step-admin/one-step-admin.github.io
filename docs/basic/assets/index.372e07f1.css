@@ -1,9 +1,0 @@
-
-/**
- * 由 Fantastic-admin-discovery 提供技术支持
- * https://hooray.gitee.io/fantastic-admin-discovery/
- * Powered by Fantastic-admin-discovery
- * https://hooray.github.io/fantastic-admin-discovery/
- */
-    
-.topbar-container[data-v-67b383d3]{position:fixed;z-index:999;top:0;display:flex;align-items:center;justify-content:space-between;height:50px;background-color:#fff;transition:.3s,box-shadow .2s;box-shadow:0 0 1px #ccc}.topbar-container .left-box[data-v-67b383d3]{display:flex;align-items:center;padding-right:50px;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,#000 0%,#000 calc(100% - 50px),transparent)}.topbar-container .left-box .sidebar-collapse[data-v-67b383d3]{display:flex;align-items:center;padding:0 20px;height:50px;cursor:pointer;transition:.3s}.topbar-container .left-box .sidebar-collapse .svg-icon[data-v-67b383d3]{transition:.3s}.topbar-container .left-box .sidebar-collapse:hover .svg-icon[data-v-67b383d3]{color:#5482ee}.topbar-container .left-box .sidebar-collapse.is-collapse .svg-icon[data-v-67b383d3]{transform:rotate(-180deg)}

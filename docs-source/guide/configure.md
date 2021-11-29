@@ -12,7 +12,7 @@
 ::: code-group-item 开发环境
 ```dot:no-line-numbers {1-6}
 # 页面标题
-VITE_APP_TITLE = Fantastic-admin 探索版
+VITE_APP_TITLE = One-step-admin
 # 接口请求地址，会设置到 axios 的 baseURL 参数上
 VITE_APP_API_BASEURL = /
 # 调试工具，可设置 eruda 或 vconsole，如果不需要开启则留空
@@ -27,7 +27,7 @@ VITE_OPEN_PROXY = false
 NODE_ENV = production
 
 # 页面标题
-VITE_APP_TITLE = Fantastic-admin 探索版
+VITE_APP_TITLE = One-step-admin
 # 接口请求地址，会设置到 axios 的 baseURL 参数上
 VITE_APP_API_BASEURL = /
 # 调试工具，可设置 eruda 或 vconsole，如果不需要开启则留空
@@ -46,7 +46,7 @@ VITE_BUILD_COMPRESS = gzip
 NODE_ENV = production
 
 # 页面标题
-VITE_APP_TITLE = Fantastic-admin 探索版
+VITE_APP_TITLE = One-step-admin
 # 接口请求地址，会设置到 axios 的 baseURL 参数上
 VITE_APP_API_BASEURL = /
 # 调试工具，可设置 eruda 或 vconsole，如果不需要开启则留空

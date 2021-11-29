@@ -2,35 +2,35 @@
 
 ## 源码
 
-阅读开发文档前，请确保手上已经有 Fantastic-admin (探索版) 源码，因为文档中提及的内容，都是需要在本地项目中编写或修改代码并运行才能呈现的。如果还没有源码，可以通过下面两种方式获取：
+阅读开发文档前，请确保手上已经有 One-step-admin 源码，因为文档中提及的内容，都是需要在本地项目中编写或修改代码并运行才能呈现的。如果还没有源码，可以通过下面两种方式获取：
 
 ### 基础版
 
 :::warning 分支说明
-- `discovery` 演示源码，即在**框架源码**基础上提供各种特性展示，含有大量示例代码
-- `template-discovery` 框架源码，不含示例代码，适合直接用于项目开发
+- `master` 演示源码，即在**框架源码**基础上提供各种特性展示，含有大量示例代码
+- `template` 框架源码，不含示例代码，适合直接用于项目开发
 :::
 
 - 手动下载
-  - 去 [Gitee](https://gitee.com/hooray/fantastic-admin) 下载
-  - 去 [Github](https://github.com/hooray/fantastic-admin) 下载
+  - 去 [Gitee](https://gitee.com/hooray/one-step-admin) 下载
+  - 去 [Github](https://github.com/hooray/one-step-admin) 下载
 - git 克隆
 
 :::: code-group
 ::: code-group-item 从 Gitee 克隆
 ```bash:no-line-numbers
 # 拉取演示源码
-git clone https://gitee.com/hooray/fantastic-admin-discovery.git
+git clone https://gitee.com/hooray/one-step-admin.git
 # 拉取框架源码
-git clone -b template https://gitee.com/hooray/fantastic-admin-discovery.git
+git clone -b template https://gitee.com/hooray/one-step-admin.git
 ```
 :::
 ::: code-group-item 从 Github 克隆
 ```bash:no-line-numbers
 # 拉取演示源码
-git clone https://github.com/hooray/fantastic-admin-discovery.git
+git clone https://github.com/hooray/one-step-admin.git
 # 拉取框架源码
-git clone -b template https://github.com/hooray/fantastic-admin-discovery.git
+git clone -b template https://github.com/hooray/one-step-admin.git
 ```
 :::
 ::::

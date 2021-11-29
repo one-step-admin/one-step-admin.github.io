@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /logo.png
-heroText: Fantastic-admin (探索版)
-tagline: 一款具备全新交互方式的Vue中后台管理系统框架
+heroText: One-step-admin
+tagline: 一款干啥都快人一步的 Vue 中后台系统框架
 actions:
 - text: 五分钟快速了解
   link: /guide/intro
@@ -30,7 +30,7 @@ features:
   details: 通过真实场景及真实需求，沉淀出数十个业务应用的静态页面，方便开发人员直接使用，后续将长期更新
 - title: 💡 更多...
   details: 更多功能特点请查阅本文档，或访问演示地址
-footer: Copyright © Fantastic-admin
+footer: Copyright © One-step-admin
 ---
 
 <h2 align="center">演示地址</h2>
@@ -49,8 +49,8 @@ footer: Copyright © Fantastic-admin
 <h2 align="center">下载 / 购买</h2>
 
 - 基础版（免费，可商用）
-  - 去 [Gitee](https://gitee.com/hooray/fantastic-admin) 下载（注意下载分支）
-  - 去 [Github](https://github.com/hooray/fantastic-admin) 下载（注意下载分支）
+  - 去 [Gitee](https://gitee.com/hooray/one-step-admin) 下载（注意下载分支）
+  - 去 [Github](https://github.com/hooray/one-step-admin) 下载（注意下载分支）
 - 专业版（付费，可商用）
   - [去购买](buy.md)
 

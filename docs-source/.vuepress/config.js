@@ -1,14 +1,14 @@
 module.exports = {
 	bundler: '@vuepress/vite',
 	lang: 'zh-CN',
-	title: 'Fantastic-admin (探索版)',
-	description: '一款具备全新交互方式的 Vue 中后台管理系统框架',
-	base: '/fantastic-admin-discovery/',
+	title: 'One-step-admin',
+	description: '一款干啥都快人一步的 Vue 中后台管理系统框架',
+	base: '/one-step-admin/',
 	dest: 'docs',
 	head: [
 		['link', { rel: 'icon', href: `./favicon.ico` }],
-		['keywords', { content: 'fantastic-admin,fantastic-admin-discovery,探索,后台系统,管理后台,后台模版,vue后台,vue-admin,vue-element-admin,vue-admin-template' }],
-		['description', { content: '一款具备全新交互方式的 Vue 中后台管理系统框架，采用 Vue3 + Vite2 技术栈。' }],
+		['keywords', { content: 'fantastic-admin,one-step-admin,探索,后台系统,管理后台,后台模版,vue后台,vue-admin,vue-element-admin,vue-admin-template' }],
+		['description', { content: '一款干啥都快人一步的 Vue 中后台管理系统框架，采用 Vue3 + Vite2 技术栈。' }],
 		['script', {}, `var _hmt = _hmt || [];
 		_hmt.push(['_requirePlugin', 'UrlChangeTracker', {
 			shouldTrackUrlChange: function(newPath, oldPath) {
@@ -53,22 +53,22 @@ module.exports = {
 				children: [
 					{
 						text: '基础版',
-						link: 'https://hooray.gitee.io/fantastic-admin-discovery/basic'
+						link: 'https://hooray.gitee.io/one-step-admin/basic'
 					},
 					{
 						text: '专业版',
-						link: 'https://hooray.gitee.io/fantastic-admin-discovery/pro'
+						link: 'https://hooray.gitee.io/one-step-admin/pro'
 					},
 					{
 						text: '备份地址',
 						children: [
 							{
 								text: '基础版',
-								link: 'https://hooray.github.io/fantastic-admin-discovery/basic'
+								link: 'https://hooray.github.io/one-step-admin/basic'
 							},
 							{
 								text: '专业版',
-								link: 'https://hooray.github.io/fantastic-admin-discovery/pro'
+								link: 'https://hooray.github.io/one-step-admin/pro'
 							}
 						]
 					}
@@ -83,11 +83,11 @@ module.exports = {
 				children: [
 					{
 						text: 'Gitee',
-						link: 'https://gitee.com/hooray/fantastic-admin-discovery'
+						link: 'https://gitee.com/hooray/one-step-admin'
 					},
 					{
 						text: 'Github',
-						link: 'https://github.com/hooray/fantastic-admin-discovery'
+						link: 'https://github.com/hooray/one-step-admin'
 					}
 				]
 			},
@@ -103,8 +103,8 @@ module.exports = {
 						link: 'https://hooray.gitee.io/fantastic-admin'
 					},
 					{
-						text: 'Fantastaic-admin (探索版)',
-						link: 'https://hooray.gitee.io/fantastic-admin-discovery'
+						text: 'One-step-admin',
+						link: 'https://hooray.gitee.io/one-step-admin'
 					}
 				]
 			}
