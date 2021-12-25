@@ -2,8 +2,7 @@ name: Deploy Gitee Pages
 
 on:
   push:
-    branches:
-      - docs
+    branches: [docs]
 
 jobs:
   build:
