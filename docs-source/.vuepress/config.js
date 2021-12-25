@@ -75,10 +75,6 @@ module.exports = {
 				]
 			},
 			{
-				text: '购买专业版',
-				link: '/buy.md'
-			},
-			{
 				text: '下载基础版',
 				children: [
 					{
@@ -90,6 +86,10 @@ module.exports = {
 						link: 'https://github.com/hooray/one-step-admin'
 					}
 				]
+			},
+			{
+				text: '购买专业版',
+				link: '/buy.md'
 			},
 			{
 				text: '生态',
