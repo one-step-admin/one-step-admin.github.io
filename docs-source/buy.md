@@ -1,9 +1,5 @@
 # 购买专业版
 
-:::tip 购买专业版并点 ⭐ 可返现 200 元
-购买专业版后，分别在 [![star](https://img.shields.io/github/stars/hooray/one-step-admin?style=social)](https://github.com/hooray/one-step-admin/stargazers) 和 [![star](https://gitee.com/hooray/one-step-admin/badge/star.svg?theme=dark)](https://gitee.com/hooray/one-step-admin/stargazers) 给仓库点 ⭐，可返现 200 元（联系作者并提供相关截图即可），活动截止至 2021 年 12 月 31 日。
-:::
-
 ## 购买说明
 
 请先加作者 QQ ：304327508 ，或者点击[在线咨询](https://wpa.qq.com/msgrd?v=3&uin=304327508&site=qq&menu=yes)，然后通过下面的微信或支付宝进行支付，支付成功后需要提供一个邮箱地址用于接收源码，源码包含专业版**演示源码**和**框架源码**。
