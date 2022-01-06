@@ -1,1 +1,0 @@
-const e={key:"v-829c6e12",path:"/components/icon-picker.html",title:"IconPicker 图标选择器",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Props",slug:"props",children:[]}],filePathRelative:"components/icon-picker.md",git:{updatedTime:163558272e4,contributors:[{name:"hooray",email:"304327508@qq.com",commits:1}]}};export{e as data};
