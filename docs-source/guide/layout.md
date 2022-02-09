@@ -17,7 +17,9 @@
 <p><img :src="$withBase('/menu-mode-head.png')" /></p>
 
 ```js:no-line-numbers
-menuMode: 'head'
+menu: {
+    menuMode: 'head'
+}
 ```
 
 ### 侧边栏模式（含主导航）
@@ -25,7 +27,9 @@ menuMode: 'head'
 <p><img :src="$withBase('/menu-mode-side.png')" /></p>
 
 ```js:no-line-numbers
-menuMode: 'side'
+menu: {
+    menuMode: 'side'
+}
 ```
 
 ### 侧边栏模式（无主导航）
@@ -33,7 +37,9 @@ menuMode: 'side'
 <p><img :src="$withBase('/menu-mode-single.png')" /></p>
 
 ```js:no-line-numbers
-menuMode: 'single'
+menu: {
+    menuMode: 'single'
+}
 ```
 
 ### 侧边栏精简模式 <Badge type="tip" text="专业版" vertical="top" />
@@ -41,7 +47,9 @@ menuMode: 'single'
 <p><img :src="$withBase('/menu-mode-only-side.png')" /></p>
 
 ```js:no-line-numbers
-menuMode: 'only-side'
+menu: {
+    menuMode: 'only-side'
+}
 ```
 
 ### 顶部精简模式 <Badge type="tip" text="专业版" vertical="top" />
@@ -49,7 +57,9 @@ menuMode: 'only-side'
 <p><img :src="$withBase('/menu-mode-only-head.png')" /></p>
 
 ```js:no-line-numbers
-menuMode: 'only-head'
+menu: {
+    menuMode: 'only-head'
+}
 ```
 
 ## 变量
