@@ -1,0 +1,9 @@
+
+/**
+ * 由 One-step-admin 提供技术支持
+ * https://hooray.gitee.io/one-step-admin/
+ * Powered by One-step-admin
+ * https://hooray.github.io/one-step-admin/
+ */
+    
+import{_ as e}from"./index.e5c277f9.js";import{_ as o}from"./index.a32c7679.js";import{_ as t}from"./index.9dc02013.js";import{z as a,o as r,t as n,x as d,$ as l,Y as i,l as f,m as c,B as s,k as m,A as u}from"./vendor.6ae38f98.js";import{_ as p}from"./index.e3b25878.js";const _={class:"num"},g={class:"tip"};var x=t({props:{colorFrom:{type:String,default:"#843cf6"},colorTo:{type:String,default:"#759bff"},header:{type:String,default:""},num:{type:Number,default:0},tip:{type:String,default:""},icon:{type:String,default:""}},setup:e=>(t,m)=>{const u=o,p=a("el-card");return r(),n(p,{shadow:"hover",class:"mini-card",style:s({background:`linear-gradient(50deg, ${e.colorFrom}, ${e.colorTo})`})},{header:d((()=>[l(i(e.header),1)])),default:d((()=>[f("div",_,i(e.num),1),f("div",g,i(e.tip),1),e.icon?(r(),n(u,{key:0,name:e.icon,rotate:20},null,8,["name"])):c("v-if",!0)])),_:1},8,["style"])}},[["__scopeId","data-v-60b3af78"]]);var y=t({},[["render",function(o,t){const n=p,l=x,i=a("el-col"),f=a("el-row"),c=e;return r(),m("div",null,[u(n,{title:"多彩渐变卡片",content:"ColorfulCard"}),u(c,null,{default:d((()=>[u(f,{gutter:20},{default:d((()=>[u(i,{md:12},{default:d((()=>[u(l,{header:"开发文档",num:123,tip:"较上周上升50%",icon:"index-document"})])),_:1}),u(i,{md:12},{default:d((()=>[u(l,{"color-from":"#fbaaa2","color-to":"#fc5286",header:"基础组件",num:12323,tip:"较上周上升50%",icon:"index-component"})])),_:1})])),_:1}),u(f,{gutter:20,style:{"margin-top":"20px"}},{default:d((()=>[u(i,{md:12},{default:d((()=>[u(l,{"color-from":"#ff763b","color-to":"#ffc480",header:"扩展组件",num:123,tip:"较上周上升50%",icon:"index-component"})])),_:1}),u(i,{md:12},{default:d((()=>[u(l,{"color-from":"#6a8eff","color-to":"#0e4cfd",header:"业务应用页面",num:123,tip:"较上周上升50%",icon:"index-page"})])),_:1})])),_:1})])),_:1})])}]]);export{y as default};
