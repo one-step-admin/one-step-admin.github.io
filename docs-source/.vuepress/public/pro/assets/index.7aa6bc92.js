@@ -1,9 +1,0 @@
-
-/**
- * 由 One-step-admin 提供技术支持
- * https://hooray.gitee.io/one-step-admin/
- * Powered by One-step-admin
- * https://hooray.github.io/one-step-admin/
- */
-    
-import{_ as e}from"./index.e5c277f9.js";import{_ as t}from"./index.cd6702a6.js";import{_ as a}from"./index.9dc02013.js";import{k as l,A as d,x as s,z as i,o as f,$ as n}from"./vendor.6ae38f98.js";const u={},o=n("默认链接"),r=n("主要链接"),_=n("成功链接"),c=n("警告链接"),p=n("危险链接"),m=n("信息链接"),y=n("默认链接"),b=n("主要链接"),g=n("成功链接"),v=n("警告链接"),x=n("危险链接"),j=n("信息链接"),w=n("无下划线"),h=n("有下划线"),k=n("编辑"),z=n("查看");var A=a(u,[["render",function(a,n){const u=t,A=i("el-link"),I=e,$=i("el-icon-view"),q=i("el-icon");return f(),l("div",null,[d(u),d(I,{title:"基础用法",class:"demo"},{default:s((()=>[d(A,{href:"https://element.eleme.io",target:"_blank"},{default:s((()=>[o])),_:1}),d(A,{type:"primary"},{default:s((()=>[r])),_:1}),d(A,{type:"success"},{default:s((()=>[_])),_:1}),d(A,{type:"warning"},{default:s((()=>[c])),_:1}),d(A,{type:"danger"},{default:s((()=>[p])),_:1}),d(A,{type:"info"},{default:s((()=>[m])),_:1})])),_:1}),d(I,{title:"禁用状态",class:"demo"},{default:s((()=>[d(A,{disabled:""},{default:s((()=>[y])),_:1}),d(A,{type:"primary",disabled:""},{default:s((()=>[b])),_:1}),d(A,{type:"success",disabled:""},{default:s((()=>[g])),_:1}),d(A,{type:"warning",disabled:""},{default:s((()=>[v])),_:1}),d(A,{type:"danger",disabled:""},{default:s((()=>[x])),_:1}),d(A,{type:"info",disabled:""},{default:s((()=>[j])),_:1})])),_:1}),d(I,{title:"下划线",class:"demo"},{default:s((()=>[d(A,{underline:!1},{default:s((()=>[w])),_:1}),d(A,null,{default:s((()=>[h])),_:1})])),_:1}),d(I,{title:"图标",class:"demo"},{default:s((()=>[d(A,{icon:"el-icon-edit"},{default:s((()=>[k])),_:1}),d(A,null,{default:s((()=>[z,d(q,{class:"el-icon-view el-icon--right"},{default:s((()=>[d($)])),_:1})])),_:1})])),_:1})])}],["__scopeId","data-v-01dc6854"]]);export{A as default};
