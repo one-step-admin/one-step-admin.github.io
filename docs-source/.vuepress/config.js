@@ -162,7 +162,6 @@ module.exports = {
 						'auth-all.md',
 						'page-header.md',
 						'page-main.md',
-						'result.md',
 						'action-container.md',
 						'search-bar.md',
 						'batch-action-bar.md',
