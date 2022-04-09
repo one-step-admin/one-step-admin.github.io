@@ -1,0 +1,1 @@
+const t={key:"v-69f7c938",path:"/guide/components/auth.html",title:"Auth \u9274\u6743",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Props",slug:"props",children:[]},{level:2,title:"Slot",slug:"slot",children:[]}],git:{updatedTime:null,contributors:[]},filePathRelative:"guide/components/auth.md"};export{t as data};

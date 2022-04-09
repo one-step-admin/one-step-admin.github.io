@@ -45,10 +45,6 @@ module.exports = {
 				]
 			},
 			{
-				text: '组件',
-				link: '/components/'
-			},
-			{
 				text: '演示地址',
 				children: [
 					{
@@ -73,6 +69,10 @@ module.exports = {
 						]
 					}
 				]
+			},
+			{
+				text: '技术支持',
+				link: '/support.md'
 			},
 			{
 				text: '下载基础版',
@@ -111,72 +111,75 @@ module.exports = {
 		],
 		sidebar: {
 			'/guide/': [
-				'intro.md',
+				'/guide/intro.md',
 				{
 					text: '指南',
 					children: [
-						'ready.md',
-						'start.md',
-						'coding-standard.md',
-						'configure.md',
-						'layout.md',
-						'theme.md',
-						'menu.md',
-						'window.md',
-						'router.md',
-						'axios.md',
-						'store.md',
-						'global-resources.md',
-						'build.md'
+						'/guide/ready.md',
+						'/guide/start.md',
+						'/guide/coding-standard.md',
+						'/guide/configure.md',
+						'/guide/layout.md',
+						'/guide/theme.md',
+						'/guide/menu.md',
+						'/guide/window.md',
+						'/guide/router.md',
+						'/guide/axios.md',
+						'/guide/store.md',
+						'/guide/global-resources.md',
+						'/guide/build.md'
 					]
 				},
 				{
 					text: '高级',
 					children: [
-						'permission.md',
-						'i18n.md',
-						'plop.md',
-						'plop-module.md',
-						'global-properties.md',
-						'storage.md',
-						'error-log.md',
-						'font.md'
+						'/guide/permission.md',
+						'/guide/i18n.md',
+						'/guide/plop.md',
+						'/guide/plop-module.md',
+						'/guide/global-properties.md',
+						'/guide/storage.md',
+						'/guide/error-log.md',
+						'/guide/font.md'
+					]
+				},
+				{
+					text: '组件',
+					children: [
+						'/guide/components/readme.md',
+						'/guide/components/basic.md',
+						{
+							text: '扩展组件',
+							children: [
+								'/guide/components/auth.md',
+								'/guide/components/auth-all.md',
+								'/guide/components/page-header.md',
+								'/guide/components/page-main.md',
+								'/guide/components/action-container.md',
+								'/guide/components/search-bar.md',
+								'/guide/components/batch-action-bar.md',
+								'/guide/components/image-upload.md',
+								'/guide/components/images-upload.md',
+								'/guide/components/file-upload.md',
+								'/guide/components/image-preview.md',
+								'/guide/components/svg-icon.md',
+								'/guide/components/trend.md',
+								'/guide/components/cascader-area.md',
+								'/guide/components/chip.md',
+								'/guide/components/colorful-card.md',
+								'/guide/components/icon-picker.md',
+								'/guide/components/sparkline.md',
+								'/guide/components/i18n-selector.md'
+							]
+						}
 					]
 				},
 				{
 					text: '其它',
 					children: [
-						'vue3-composition-api.md',
-						'upgrade.md',
-						'q-a.md'
-					]
-				}
-			],
-			'/components/': [
-				'readme.md',
-				'basic.md',
-				{
-					text: '扩展组件',
-					children: [
-						'auth.md',
-						'auth-all.md',
-						'page-header.md',
-						'page-main.md',
-						'action-container.md',
-						'search-bar.md',
-						'batch-action-bar.md',
-						'image-upload.md',
-						'images-upload.md',
-						'file-upload.md',
-						'image-preview.md',
-						'svg-icon.md',
-						'trend.md',
-						'cascader-area.md',
-						'chip.md',
-						'colorful-card.md',
-						'icon-picker.md',
-						'sparkline.md',
-						'i18n-selector.md'
+						'/guide/vue3-composition-api.md',
+						'/guide/upgrade.md',
+						'/guide/q-a.md'
 					]
 				}
 			]

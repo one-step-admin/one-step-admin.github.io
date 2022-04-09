@@ -52,10 +52,6 @@ footer: Copyright © One-step-admin
 - 专业版（付费，可商用）
   - [去购买](buy.md)
 
-<h2 align="center">技术支持</h2>
-
-技术交流QQ群：1001394973
-
 <h2 align="center">预览</h2>
 
 <table>

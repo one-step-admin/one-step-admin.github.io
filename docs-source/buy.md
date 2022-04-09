@@ -151,8 +151,10 @@
 		<td align="center">可删除</td>
 	</tr>
 	<tr>
-		<td align="center">技术交流QQ群</td>
-		<td colspan="4" align="center">1001394973</td>
+		<td align="center">技术支持</td>
+		<td colspan="4" align="center">
+			<a href="support">查看</a>
+		</td>
 	</tr>
 	<tr>
 		<td align="center">作者一对一技术支持</td>

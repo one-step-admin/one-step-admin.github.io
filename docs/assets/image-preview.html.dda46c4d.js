@@ -1,0 +1,1 @@
+const e={key:"v-56543b70",path:"/guide/components/image-preview.html",title:"ImagePreview \u56FE\u7247\u9884\u89C8",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Props",slug:"props",children:[]}],git:{updatedTime:null,contributors:[]},filePathRelative:"guide/components/image-preview.md"};export{e as data};

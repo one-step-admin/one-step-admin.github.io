@@ -1,0 +1,1 @@
+const e={key:"v-7a483089",path:"/guide/components/trend.html",title:"Trend \u8D8B\u52BF\u6807\u8BB0",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Props",slug:"props",children:[]}],git:{updatedTime:null,contributors:[]},filePathRelative:"guide/components/trend.md"};export{e as data};

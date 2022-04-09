@@ -1,1 +1,0 @@
-const e={key:"v-0882309c",path:"/components/trend.html",title:"Trend \u8D8B\u52BF\u6807\u8BB0",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Props",slug:"props",children:[]}],git:{updatedTime:163558272e4,contributors:[{name:"hooray",email:"304327508@qq.com",commits:1}]},filePathRelative:"components/trend.md"};export{e as data};

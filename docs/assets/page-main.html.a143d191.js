@@ -1,0 +1,1 @@
+const e={key:"v-19e89daf",path:"/guide/components/page-main.html",title:"PageMain \u5185\u5BB9\u5757",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Props",slug:"props",children:[]},{level:2,title:"Slot",slug:"slot",children:[]}],git:{updatedTime:null,contributors:[]},filePathRelative:"guide/components/page-main.md"};export{e as data};

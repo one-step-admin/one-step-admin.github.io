@@ -1,1 +1,0 @@
-const e={key:"v-185413aa",path:"/components/i18n-selector.html",title:"I18nSelector \u56FD\u9645\u5316\u9009\u62E9\u5668",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Slot",slug:"slot",children:[]}],git:{updatedTime:163558272e4,contributors:[{name:"hooray",email:"304327508@qq.com",commits:1}]},filePathRelative:"components/i18n-selector.md"};export{e as data};
