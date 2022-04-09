@@ -1,1 +1,0 @@
-const e={key:"v-74dfeb40",path:"/guide/components/chip.html",title:"Chip \u7EB8\u7247",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Props",slug:"props",children:[]},{level:2,title:"Event",slug:"event",children:[]}],git:{updatedTime:null,contributors:[]},filePathRelative:"guide/components/chip.md"};export{e as data};

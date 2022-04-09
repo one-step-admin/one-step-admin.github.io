@@ -1,1 +1,0 @@
-const e={key:"v-9cf4906c",path:"/guide/components/cascader-area.html",title:"CascaderArea \u7701\u5E02\u7EA7\u8054\u52A8",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Props",slug:"props",children:[]}],git:{updatedTime:null,contributors:[]},filePathRelative:"guide/components/cascader-area.md"};export{e as data};

@@ -1,1 +1,0 @@
-const e={key:"v-46051a14",path:"/guide/components/file-upload.html",title:"FileUpload \u6587\u4EF6\u4E0A\u4F20",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Props",slug:"props",children:[]}],git:{updatedTime:null,contributors:[]},filePathRelative:"guide/components/file-upload.md"};export{e as data};

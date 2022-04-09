@@ -1,1 +1,0 @@
-const e={key:"v-100269ba",path:"/guide/components/colorful-card.html",title:"ColorfulCard \u591A\u5F69\u6E10\u53D8\u5361\u7247",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Props",slug:"props",children:[]}],git:{updatedTime:null,contributors:[]},filePathRelative:"guide/components/colorful-card.md"};export{e as data};
