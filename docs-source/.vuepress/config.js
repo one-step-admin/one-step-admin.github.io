@@ -127,6 +127,7 @@ module.exports = {
 						'/guide/axios.md',
 						'/guide/store.md',
 						'/guide/global-resources.md',
+						'/guide/svg-icon.md',
 						'/guide/build.md'
 					]
 				},
