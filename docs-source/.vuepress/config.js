@@ -1,5 +1,7 @@
+const { viteBundler, defaultTheme } = require('vuepress')
+
 module.exports = {
-	bundler: '@vuepress/vite',
+	bundler: viteBundler(),
 	lang: 'zh-CN',
 	title: 'One-step-admin',
 	description: '一款干啥都快人一步的 Vue 中后台管理系统框架',
@@ -26,7 +28,7 @@ module.exports = {
 			s.parentNode.insertBefore(hm, s);
 		})();`]
 	],
-	themeConfig: {
+	theme: defaultTheme({
 		logo: '/logo.png',
 		search: false,
 		navbar: [
@@ -185,7 +187,7 @@ module.exports = {
 				}
 			]
 		}
-	},
+	}),
 	// plugins: [
 	// 	['@vuepress/plugin-docsearch', {
 	// 		apiKey: '1a963d3300ae4934911e321fb6eba267',

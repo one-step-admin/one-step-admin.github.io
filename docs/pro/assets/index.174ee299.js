@@ -1,9 +1,0 @@
-
-/**
- * 由 One-step-admin 提供技术支持
- * https://hooray.gitee.io/one-step-admin/
- * Powered by One-step-admin
- * https://hooray.github.io/one-step-admin/
- */
-    
-import{_ as e}from"./index.84a18d1d.js";import{_ as a,m as l,n as s,c as t,e as o,E as n,b as d,w as i,i as u,I as c,h as r,y as f}from"./index.93ad63e3.js";import{_ as p}from"./index.c51a8d86.js";import{_}from"./logo.d77fe55e.js";const y={class:"content"};var m=a({props:{type:{type:String,default:""},closable:{type:Boolean,default:!1}},emits:["close"],setup:(e,{emit:a})=>(r,f)=>{const p=l("el-icon-close-bold"),_=l("el-icon");return s(),t("div",{class:c(["chip",[e.type?`chip--${e.type}`:""]])},[o("div",y,[n(r.$slots,"default",{},void 0,!0),e.closable?(s(),t("span",{key:0,class:"closable",onClick:f[0]||(f[0]=e=>a("close"))},[d(_,null,{default:i((()=>[d(p)])),_:1})])):u("v-if",!0)])],2)}},[["__scopeId","data-v-157e0cb7"]]);const v={data:()=>({isShow:!0,avatar:_}),methods:{handleClose(){this.isShow=!1}}},h=f(" 基础纸片 "),b=f("Fa"),g=f(" 头像文字 "),C=f(" 头像图标 "),w=f(" 头像图片 "),S=f(" 关闭按钮 "),j=f(" Primary "),x=f(" Success "),k=f(" Info "),I=f(" Waning "),$=f(" Danger ");var B=a(v,[["render",function(a,o,n,c,f,_){const y=p,v=m,B=l("el-avatar"),D=e;return s(),t("div",null,[d(y,{title:"纸片",content:"Chip"}),d(D,null,{default:i((()=>[d(v,null,{default:i((()=>[h])),_:1}),d(v,null,{default:i((()=>[d(B,null,{default:i((()=>[b])),_:1}),g])),_:1}),d(v,null,{default:i((()=>[d(B,{icon:"el-icon-user-filled"}),C])),_:1}),d(v,null,{default:i((()=>[d(B,{src:f.avatar},null,8,["src"]),w])),_:1}),f.isShow?(s(),r(v,{key:0,closable:"",onClose:_.handleClose},{default:i((()=>[S])),_:1},8,["onClose"])):u("v-if",!0)])),_:1}),d(D,null,{default:i((()=>[d(v,{type:"primary"},{default:i((()=>[j])),_:1}),d(v,{type:"success"},{default:i((()=>[x])),_:1}),d(v,{type:"info"},{default:i((()=>[k])),_:1}),d(v,{type:"warning"},{default:i((()=>[I])),_:1}),d(v,{type:"danger"},{default:i((()=>[$])),_:1})])),_:1})])}]]);export{B as default};
