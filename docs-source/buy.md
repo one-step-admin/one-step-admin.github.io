@@ -37,7 +37,7 @@
 
 <table style="display: table; margin: 1rem auto;">
 	<tr>
-		<td colspan="2" align="center"><b style="color: #ff4400;">￥<span style="font-size: 24px;">696.</span>00</b></td>
+		<td colspan="2" align="center"><b style="color: #ff4400;">￥<span style="font-size: 24px;">796.</span>00</b></td>
 	</tr>
 	<tr>
 		<td align="center">
