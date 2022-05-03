@@ -1,4 +1,4 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
   '@vuepress/plugin-docsearch': ^2.0.0-beta.41
@@ -396,7 +396,7 @@ packages:
       '@vuepress/shared': 2.0.0-beta.41
       '@vuepress/utils': 2.0.0-beta.41
       markdown-it: 13.0.0
-      markdown-it-anchor: 8.6.2_e65554cf9708eb5a747b25768b7e70ba
+      markdown-it-anchor: 8.6.2_4zkvjt4xbdvvu5d3ev3iw7tqxi
       markdown-it-emoji: 2.0.2
       mdurl: 1.0.1
     transitivePeerDependencies:
@@ -1329,7 +1329,7 @@ packages:
       sourcemap-codec: 1.4.8
     dev: true
 
-  /markdown-it-anchor/8.6.2_e65554cf9708eb5a747b25768b7e70ba:
+  /markdown-it-anchor/8.6.2_4zkvjt4xbdvvu5d3ev3iw7tqxi:
     resolution: {integrity: sha512-JNaekTlIwwyYGBN3zifZDxgz4bSL8sbEj58fdTZGmPSMMGXBZapFjcZk2I33Jy79c1fvCKHpF7MA/67FOTjvzA==}
     peerDependencies:
       '@types/markdown-it': '*'
