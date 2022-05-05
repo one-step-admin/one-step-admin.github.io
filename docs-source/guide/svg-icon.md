@@ -45,7 +45,7 @@ import { Icon } from '@iconify/vue'
 
 <template>
     <el-icon>
-        <Icon icon="el:arrow-right" />
+        <Icon icon="ep:arrow-right" />
     </el-icon>
 </template>
 ```
@@ -54,7 +54,7 @@ import { Icon } from '@iconify/vue'
 
 ```vue:no-line-numbers
 <el-icon>
-    <svg-icon name="el:arrow-right" />
+    <svg-icon name="ep:arrow-right" />
 </el-icon>
 ```
 
