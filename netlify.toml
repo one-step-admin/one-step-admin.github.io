@@ -3,9 +3,3 @@ NPM_FLAGS="--version"
 
 [build]
 command = "npx pnpm@6 install --store-dir=.pnpm --frozen-lockfile && npx pnpm config set registry https://registry.npmmirror.com/ && npx pnpm@6 docs:build"
-
-[[plugins]]
-package = "/netlify-plugin-cache"
-
-  [plugins.inputs]
-  paths = [".pnpm"]
