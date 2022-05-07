@@ -2,4 +2,4 @@
 NPM_FLAGS="--version"
 
 [build]
-command = "npx pnpm@6 install --store-dir=.pnpm --frozen-lockfile && npx pnpm config set registry https://registry.npmmirror.com/ && npx pnpm@6 docs:build"
+command = "npx pnpm@6 install --store-dir=.pnpm --frozen-lockfile && npx pnpm@6 docs:build"

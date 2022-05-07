@@ -51,24 +51,11 @@ module.exports = {
 				children: [
 					{
 						text: '基础版',
-						link: 'https://hooray.gitee.io/one-step-admin/basic'
+						link: 'https://one-step-admin.netlify.app/basic'
 					},
 					{
 						text: '专业版',
-						link: 'https://hooray.gitee.io/one-step-admin/pro'
-					},
-					{
-						text: '备份地址',
-						children: [
-							{
-								text: '基础版',
-								link: 'https://hooray.github.io/one-step-admin/basic'
-							},
-							{
-								text: '专业版',
-								link: 'https://hooray.github.io/one-step-admin/pro'
-							}
-						]
+						link: 'https://one-step-admin.netlify.app/pro'
 					}
 				]
 			},
@@ -98,7 +85,7 @@ module.exports = {
 				children: [
 					{
 						text: 'Fantastaic-template',
-						link: 'https://hooray.gitee.io/fantastic-template'
+						link: 'https://fantastic-template.netlify.app'
 					},
 					{
 						text: 'Fantastaic-admin',
@@ -106,7 +93,7 @@ module.exports = {
 					},
 					{
 						text: 'One-step-admin',
-						link: 'https://hooray.gitee.io/one-step-admin'
+						link: 'https://one-step-admin.netlify.app'
 					}
 				]
 			}
