@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+	"prebuild": "[[ $CI = true ]] && npx pnpm@3 install -r --store=node_modules/.pnpm-store || echo skiping pnpm install",
     "docs:dev": "vuepress dev docs-source",
     "docs:build": "vuepress build docs-source"
   },
