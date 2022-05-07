@@ -1,2 +1,3 @@
-[build.environment]
-  NPM_FLAGS="--prefix=/"
+[build]
+  publish = "docs"
+  command = "npx pnpm i --store=node_modules/.pnpm-store && npx pnpm run docs:build"
