@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs-source",
-    "docs:build": "vuepress build docs-source",
-    "deploy": "git checkout --orphan temporary_branch && git add -A && git commit -am \"deploy\" && git branch -D docs && git branch -m docs && git push -f origin docs && git branch --set-upstream-to=origin/docs docs"
+    "docs:build": "vuepress build docs-source"
   },
   "author": "hooray",
   "license": "MIT",
