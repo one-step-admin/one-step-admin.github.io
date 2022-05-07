@@ -1,4 +1,5 @@
 const { viteBundler, defaultTheme } = require('vuepress')
+const { searchPlugin } = require('@vuepress/plugin-search')
 
 module.exports = {
 	bundler: viteBundler(),
@@ -19,11 +20,7 @@ module.exports = {
 		}]);
 		(function() {
 			var hm = document.createElement("script");
-			if (location.origin.includes('gitee')) {
-				hm.src = "https://hm.baidu.com/hm.js?ba0ee7b31f404b7dc10bfcd8bdc7183d";
-			} else {
-				hm.src = "https://hm.baidu.com/hm.js?d07a64f7a02cd5e9c01e1b36948ac4a5";
-			}
+			hm.src = "https://hm.baidu.com/hm.js?506cda33993a1a0af70a34ad844b9663";
 			var s = document.getElementsByTagName("script")[0];
 			s.parentNode.insertBefore(hm, s);
 		})();`]
@@ -89,7 +86,7 @@ module.exports = {
 					},
 					{
 						text: 'Fantastaic-admin',
-						link: 'https://hooray.gitee.io/fantastic-admin'
+						link: 'https://fantastic-admin.netlify.app'
 					},
 					{
 						text: 'One-step-admin',
@@ -175,14 +172,7 @@ module.exports = {
 			]
 		}
 	}),
-	// plugins: [
-	// 	['@vuepress/plugin-docsearch', {
-	// 		apiKey: '1a963d3300ae4934911e321fb6eba267',
-	// 		indexName: 'fantastic-admin',
-	// 		placeholder: '搜索',
-	// 		searchParameters: {
-	// 			facetFilters: ['lang:zh-CN']
-	// 		}
-	// 	}]
-	// ]
+	plugins: [
+		searchPlugin()
+	]
 }
