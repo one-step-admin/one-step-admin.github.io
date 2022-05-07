@@ -5,7 +5,7 @@ module.exports = {
 	lang: 'zh-CN',
 	title: 'One-step-admin',
 	description: '一款干啥都快人一步的 Vue 中后台管理系统框架',
-	base: '/one-step-admin/',
+	base: '/',
 	dest: 'docs',
 	head: [
 		['link', { rel: 'icon', href: `./favicon.ico` }],
