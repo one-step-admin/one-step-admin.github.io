@@ -1,9 +1,0 @@
-
-/**
- * 由 One-step-admin 提供技术支持
- * https://hooray.gitee.io/one-step-admin/
- * Powered by One-step-admin
- * https://hooray.github.io/one-step-admin/
- */
-    
-import{I as t,d as e,J as a,C as s,K as r,g as n,L as i}from"./index.b046d3e8.js";const u=Symbol("rowContextKey"),l=i(e({name:"ElRow",props:t({tag:{type:String,default:"div"},gutter:{type:Number,default:0},justify:{type:String,values:["start","center","end","space-around","space-between","space-evenly"],default:"start"},align:{type:String,values:["top","middle","bottom"],default:"top"}}),setup(t,{slots:e}){const i=a("row"),l=s((()=>t.gutter));r(u,{gutter:l});const g=s((()=>{const e={marginLeft:"",marginRight:""};return t.gutter&&(e.marginLeft=`-${t.gutter/2}px`,e.marginRight=e.marginLeft),e}));return()=>n(t.tag,{class:[i.b(),i.is(`justify-${t.justify}`,"start"!==t.justify),i.is(`align-${t.align}`,"top"!==t.align)],style:g.value},{default:()=>{var t;return[null==(t=e.default)?void 0:t.call(e)]}})}}));export{l as E,u as r};

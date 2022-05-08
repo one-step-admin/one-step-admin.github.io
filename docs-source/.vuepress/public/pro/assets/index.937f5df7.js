@@ -1,0 +1,11 @@
+
+/**
+ * 由 One-step-admin 提供技术支持
+ * Powered by One-step-admin
+ * https://one-step-admin.netlify.app
+ * 代码仓库
+ * Gitee  https://gitee.com/hooray/one-step-admin
+ * Github https://github.com/hooray/one-step-admin
+ */
+    
+import{_ as e,C as t,o as a,c as l,t as s,k as r,a as u,g as n,w as p,h as i,v as f,i as o,a1 as d,E as m}from"./index.89c4a536.js";import{E as c}from"./el-row.589e4137.js";import{E as v}from"./el-col.1980009e.js";import{_ as y}from"./index.7ae327c0.js";/* empty css                */import{_ as x}from"./caret-bottom.f3dc6deb.js";import{_}from"./caret-top.18285b0c.js";import{_ as g}from"./index.60634e19.js";import"./typescript.f55dff19.js";const j={key:0,class:"prefix"},b={class:"text"},w={key:1,class:"suffix"};var S=e({props:{value:{type:String,required:!0},type:{type:String,validator:e=>["up","down"].includes(e),default:"up"},prefix:{type:String,default:""},suffix:{type:String,default:""},reverse:{type:Boolean,default:!1}},setup(e){const c=e,v=t((()=>{let e="up"===c.type;return c.reverse&&(e=!e),e}));return(t,c)=>{const y=_,g=x,S=m;return a(),l("div",{class:d("trend "+(o(v)?"up":"down"))},[e.prefix?(a(),l("span",j,s(e.prefix),1)):r("v-if",!0),u("span",b,s(e.value),1),e.suffix?(a(),l("span",w,s(e.suffix),1)):r("v-if",!0),n(S,null,{default:p((()=>[i(n(y,null,null,512),[[f,o(v)]]),i(n(g,null,null,512),[[f,!o(v)]])])),_:1})],2)}}},[["__scopeId","data-v-74bb27a2"]]);const k={},E=u("p",null,"Trend",-1),h=u("p",{style:{"margin-bottom":"0"}},"标记上升和下降趋势。通常用绿色代表“好”，红色代表“不好”，股票涨跌场景除外",-1);var q=e(k,[["render",function(e,t){const s=g,r=S,i=y,f=v,o=c;return a(),l("div",null,[n(s,{title:"趋势符号"},{content:p((()=>[E,h])),_:1}),n(o,{gutter:20,style:{margin:"0 10px"}},{default:p((()=>[n(f,{md:8},{default:p((()=>[n(i,{title:"基础用法",style:{margin:"0"}},{default:p((()=>[u("p",null,[n(r,{value:"12.3"})]),u("p",null,[n(r,{value:"12.3",type:"down"})])])),_:1})])),_:1}),n(f,{md:8},{default:p((()=>[n(i,{title:"颜色反转",style:{margin:"0"}},{default:p((()=>[u("p",null,[n(r,{value:"12.3",reverse:""})]),u("p",null,[n(r,{value:"12.3",type:"down",reverse:""})])])),_:1})])),_:1}),n(f,{md:8},{default:p((()=>[n(i,{title:"前缀后缀",style:{margin:"0"}},{default:p((()=>[u("p",null,[n(r,{value:"12.3",prefix:"$"})]),u("p",null,[n(r,{value:"12.3",suffix:"%"})])])),_:1})])),_:1})])),_:1})])}]]);export{q as default};

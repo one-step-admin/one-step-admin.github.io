@@ -1,0 +1,11 @@
+
+/**
+ * 由 One-step-admin 提供技术支持
+ * Powered by One-step-admin
+ * https://one-step-admin.netlify.app
+ * 代码仓库
+ * Gitee  https://gitee.com/hooray/one-step-admin
+ * Github https://github.com/hooray/one-step-admin
+ */
+    
+import{_ as a}from"./index.7ae327c0.js";import{_ as e,o as l,c as s,a as t,H as o,g as n,w as d,k as f,a1 as r,E as u,j as i,y as c}from"./index.89c4a536.js";/* empty css                */import{_ as p}from"./index.2a4f1e1c.js";import{E as _}from"./el-avatar.fc427089.js";import{_ as m}from"./close-bold.3c4c47b1.js";import{_ as y}from"./index.60634e19.js";import{_ as v}from"./logo.d77fe55e.js";const h={class:"content"};var b=e({props:{type:{type:String,default:""},closable:{type:Boolean,default:!1}},emits:["close"],setup:(a,{emit:e})=>(i,c)=>{const p=m,_=u;return l(),s("div",{class:r(["chip",[a.type?`chip--${a.type}`:""]])},[t("div",h,[o(i.$slots,"default",{},void 0,!0),a.closable?(l(),s("span",{key:0,class:"closable",onClick:c[0]||(c[0]=a=>e("close"))},[n(_,null,{default:d((()=>[n(p)])),_:1})])):f("v-if",!0)])],2)}},[["__scopeId","data-v-f9bf674a"]]);const j={data:()=>({isShow:!0,avatar:v}),methods:{handleClose(){this.isShow=!1}}},g=c(" 基础纸片 "),C=c("Fa"),w=c(" 头像文字 "),x=c(" 头像图标 "),S=c(" 头像图片 "),k=c(" 关闭按钮 "),E=c(" Primary "),I=c(" Success "),$=c(" Info "),B=c(" Waning "),D=c(" Danger ");var F=e(j,[["render",function(e,t,o,r,c,m){const v=y,h=b,j=_,F=p,H=u,P=a;return l(),s("div",null,[n(v,{title:"纸片",content:"Chip"}),n(P,null,{default:d((()=>[n(h,null,{default:d((()=>[g])),_:1}),n(h,null,{default:d((()=>[n(j,null,{default:d((()=>[C])),_:1}),w])),_:1}),n(h,null,{default:d((()=>[n(j,null,{default:d((()=>[n(H,null,{default:d((()=>[n(F,{name:"ep:user-filled"})])),_:1})])),_:1}),x])),_:1}),n(h,null,{default:d((()=>[n(j,{src:c.avatar},null,8,["src"]),S])),_:1}),c.isShow?(l(),i(h,{key:0,closable:"",onClose:m.handleClose},{default:d((()=>[k])),_:1},8,["onClose"])):f("v-if",!0)])),_:1}),n(P,null,{default:d((()=>[n(h,{type:"primary"},{default:d((()=>[E])),_:1}),n(h,{type:"success"},{default:d((()=>[I])),_:1}),n(h,{type:"info"},{default:d((()=>[$])),_:1}),n(h,{type:"warning"},{default:d((()=>[B])),_:1}),n(h,{type:"danger"},{default:d((()=>[D])),_:1})])),_:1})])}]]);export{F as default};

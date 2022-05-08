@@ -1,0 +1,11 @@
+
+/**
+ * 由 One-step-admin 提供技术支持
+ * Powered by One-step-admin
+ * https://one-step-admin.netlify.app
+ * 代码仓库
+ * Gitee  https://gitee.com/hooray/one-step-admin
+ * Github https://github.com/hooray/one-step-admin
+ */
+    
+import{_ as e}from"./index.7ae327c0.js";import{_ as a,c as t,g as r,w as l,o,a as i}from"./index.89c4a536.js";import{E as d}from"./el-date-picker.e8c70690.js";import"./el-input.344ef3e5.js";/* empty css                     */import"./el-popper.27b489eb.js";import"./el-button.ee77ba8f.js";import{_ as s}from"./index.bca90ab2.js";/* empty css                */import"./panel-time-pick.69ba7404.js";import"./validator.0261e922.js";import"./index.a1ac867d.js";import"./index.0dfe2aba.js";import"./error.67356979.js";import"./isEqual.f1aee1ae.js";import"./index.0ddec936.js";import"./index.71e1be7e.js";import"./event.e842ba5a.js";import"./arrow-up.62d5044f.js";import"./arrow-down.b0d54151.js";import"./debounce.4df1b226.js";import"./arrays.6f73fe37.js";import"./index.74c86e0f.js";import"./d-arrow-right.11ad9dde.js";import"./arrow-left.6b9dcff5.js";import"./arrow-right.1602ba15.js";import"./typescript.f55dff19.js";import"./event.87cd92d6.js";import"./index.4b6badd5.js";import"./index.a744c982.js";import"./isNil.aac33454.js";import"./el-alert.5b00153b.js";import"./el-link.2134bbaa.js";const p={data:()=>({value1:"",value2:[new Date(2e3,10,10,10,10),new Date(2e3,10,11,10,10)],value3:""})},m=i("div",null,"起始日期时刻为 12:00:00，结束日期时刻为 08:00:00",-1);var n=a(p,[["render",function(a,i,p,n,u,j){const c=s,f=d,b=e;return o(),t("div",null,[r(c),r(b,{title:"日期和时间点",class:"demo"},{default:l((()=>[r(f,{modelValue:u.value1,"onUpdate:modelValue":i[0]||(i[0]=e=>u.value1=e),type:"datetime",placeholder:"选择日期时间"},null,8,["modelValue"])])),_:1}),r(b,{title:"日期和时间范围",class:"demo"},{default:l((()=>[r(f,{modelValue:u.value2,"onUpdate:modelValue":i[1]||(i[1]=e=>u.value2=e),type:"datetimerange","range-separator":"至","start-placeholder":"开始日期","end-placeholder":"结束日期"},null,8,["modelValue"])])),_:1}),r(b,{title:"默认的起始与结束时刻",class:"demo"},{default:l((()=>[m,r(f,{modelValue:u.value3,"onUpdate:modelValue":i[2]||(i[2]=e=>u.value3=e),type:"datetimerange",align:"right","start-placeholder":"开始日期","end-placeholder":"结束日期","default-time":[new Date(2e3,1,1,12,0,0),new Date(2e3,2,1,8,0,0)]},null,8,["modelValue","default-time"])])),_:1})])}]]);export{n as default};
