@@ -1,0 +1,11 @@
+
+/**
+ * 由 One-step-admin 提供技术支持
+ * Powered by One-step-admin
+ * https://one-step-admin.netlify.app
+ * 代码仓库
+ * Gitee  https://gitee.com/hooray/one-step-admin
+ * Github https://github.com/hooray/one-step-admin
+ */
+    
+.chip[data-v-771d9182]{display:inline-block;vertical-align:middle;padding:0 10px;margin-right:2px;border-radius:20px;background-color:var(--el-fill-color-light);color:var(--el-text-color-primary);transition:background-color .3s,var(--el-transition-color)}.chip .content[data-v-771d9182]{display:flex;align-items:center;min-height:28px;font-size:12px}.chip .content[data-v-771d9182] .el-avatar{width:24px;height:24px;line-height:24px;margin-left:-8px;margin-right:5px}.chip .content .closable[data-v-771d9182]{display:flex;align-items:center;justify-content:center;cursor:pointer;width:20px;height:20px;border-radius:50%;margin-left:5px;margin-right:-4px;font-size:14px;background-color:var(--el-fill-color-darker);color:var(--el-text-color-primary);transition:background-color .3s,var(--el-transition-color)}.chip .content .closable[data-v-771d9182]:hover{opacity:.7}.chip--primary[data-v-771d9182]{background-color:var(--el-color-primary);color:#fff}.chip--primary .content .closable[data-v-771d9182]{background-color:var(--el-color-primary-dark-2)}.chip--success[data-v-771d9182]{background-color:var(--el-color-success);color:#fff}.chip--success .content .closable[data-v-771d9182]{background-color:var(--el-color-success-dark-2)}.chip--info[data-v-771d9182]{background-color:var(--el-color-info);color:#fff}.chip--info .content .closable[data-v-771d9182]{background-color:var(--el-color-info-dark-2)}.chip--warning[data-v-771d9182]{background-color:var(--el-color-warning);color:#fff}.chip--warning .content .closable[data-v-771d9182]{background-color:var(--el-color-warning-dark-2)}.chip--danger[data-v-771d9182]{background-color:var(--el-color-danger);color:#fff}.chip--danger .content .closable[data-v-771d9182]{background-color:var(--el-color-danger-dark-2)}

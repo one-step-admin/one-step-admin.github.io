@@ -81,8 +81,8 @@ module.exports = {
 				text: '生态',
 				children: [
 					{
-						text: 'Fantastaic-template',
-						link: 'https://fantastic-template.netlify.app'
+						text: 'Fantastaic-startkit',
+						link: 'https://hooray.gitee.io/fantastic-startkit/'
 					},
 					{
 						text: 'Fantastaic-admin',
