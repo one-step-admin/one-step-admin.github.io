@@ -1,0 +1,11 @@
+
+/**
+ * 由 One-step-admin 提供技术支持
+ * Powered by One-step-admin
+ * https://one-step-admin.netlify.app
+ * 代码仓库
+ * Gitee  https://gitee.com/hooray/one-step-admin
+ * Github https://github.com/hooray/one-step-admin
+ */
+    
+.page-main[data-v-6bb431dc]{position:relative;padding:10px;margin-bottom:20px;background-color:var(--g-app-bg);transition:background-color .3s}.page-main.is-collaspe[data-v-6bb431dc]{overflow:hidden}.page-main.is-collaspe .collaspe[data-v-6bb431dc]{position:absolute;left:0;bottom:0;width:100%;padding:40px 0 10px;text-align:center;font-size:24px;color:var(--el-text-color-primary);text-shadow:0 0 1px var(--el-text-color-primary);background:linear-gradient(to bottom,transparent,var(--g-app-bg));transition:background .3s,var(--el-transition-color);cursor:pointer}.page-main.is-collaspe .collaspe[data-v-6bb431dc]:hover{color:#333}.page-main .title-container[data-v-6bb431dc]{width:calc(100% + (10px + var(--g-window-container-padding)) * 2);padding:14px calc(10px + var(--g-window-container-padding));margin-left:calc((10px + var(--g-window-container-padding)) * -1);margin-top:calc((10px + var(--g-window-container-padding)) * -1);margin-bottom:20px;border-bottom:1px solid var(--el-border-color-lighter);transition:var(--el-transition-border)}

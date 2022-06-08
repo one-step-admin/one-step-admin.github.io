@@ -1,0 +1,11 @@
+
+/**
+ * 由 One-step-admin 提供技术支持
+ * Powered by One-step-admin
+ * https://one-step-admin.netlify.app
+ * 代码仓库
+ * Gitee  https://gitee.com/hooray/one-step-admin
+ * Github https://github.com/hooray/one-step-admin
+ */
+    
+import{D as e,b as t,c as a,t as r,j as l,e as s,g as n,h as p,F as u,f as i,E as d}from"./index.eaca9d64.js";import{E as f}from"./el-row.3a48db14.js";import{E as o}from"./el-col.f262e65a.js";import{_ as m}from"./index.9a39b5db.js";/* empty css                */import{_ as c}from"./index.8eb858d1.js";import{_ as v}from"./plugin-vue_export-helper.21dcd24c.js";import{_ as x}from"./index.34688040.js";import"./typescript2.50fc0493.js";const y={key:0,class:"prefix"},_={class:"text"},g={key:1,class:"suffix"};var j=v({name:"index",props:{value:{type:String,required:!0},type:{type:String,validator:e=>["up","down"].includes(e),default:"up"},prefix:{type:String,default:""},suffix:{type:String,default:""},reverse:{type:Boolean,default:!1}},setup(f){const o=f,m=e((()=>{let e="up"===o.type;return o.reverse&&(e=!e),e}));return(e,o)=>{const v=c,x=d;return t(),a("div",{class:u("trend "+(i(m)?"up":"down"))},[f.prefix?(t(),a("span",y,r(f.prefix),1)):l("v-if",!0),s("span",_,r(f.value),1),f.suffix?(t(),a("span",g,r(f.suffix),1)):l("v-if",!0),n(x,null,{default:p((()=>[n(v,{name:"ep:caret-top"})])),_:1})],2)}}},[["__scopeId","data-v-435d3bc6"]]);const b={},w=s("p",null,"Trend",-1),S=s("p",{style:{"margin-bottom":"0"}},"标记上升和下降趋势。通常用绿色代表“好”，红色代表“不好”，股票涨跌场景除外",-1);var E=v(b,[["render",function(e,r){const l=x,u=j,i=m,d=o,c=f;return t(),a("div",null,[n(l,{title:"趋势符号"},{content:p((()=>[w,S])),_:1}),n(c,{gutter:20,style:{margin:"0 10px"}},{default:p((()=>[n(d,{md:8},{default:p((()=>[n(i,{title:"基础用法",style:{margin:"0"}},{default:p((()=>[s("p",null,[n(u,{value:"12.3"})]),s("p",null,[n(u,{value:"12.3",type:"down"})])])),_:1})])),_:1}),n(d,{md:8},{default:p((()=>[n(i,{title:"颜色反转",style:{margin:"0"}},{default:p((()=>[s("p",null,[n(u,{value:"12.3",reverse:""})]),s("p",null,[n(u,{value:"12.3",type:"down",reverse:""})])])),_:1})])),_:1}),n(d,{md:8},{default:p((()=>[n(i,{title:"前缀后缀",style:{margin:"0"}},{default:p((()=>[s("p",null,[n(u,{value:"12.3",prefix:"$"})]),s("p",null,[n(u,{value:"12.3",suffix:"%"})])])),_:1})])),_:1})])),_:1})])}]]);export{E as default};

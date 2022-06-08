@@ -1,0 +1,11 @@
+
+/**
+ * 由 One-step-admin 提供技术支持
+ * Powered by One-step-admin
+ * https://one-step-admin.netlify.app
+ * 代码仓库
+ * Gitee  https://gitee.com/hooray/one-step-admin
+ * Github https://github.com/hooray/one-step-admin
+ */
+    
+var e=Object.defineProperty,a=Object.defineProperties,s=Object.getOwnPropertyDescriptors,t=Object.getOwnPropertySymbols,o=Object.prototype.hasOwnProperty,l=Object.prototype.propertyIsEnumerable,n=(a,s,t)=>s in a?e(a,s,{enumerable:!0,configurable:!0,writable:!0,value:t}):a[s]=t;import{A as r,P as c,d as i,C as p,D as u,b as f,c as d,e as b,G as m,F as g,f as y,i as k,h as v,g as j,aW as O,E as h,j as C,H as P,a8 as w,_ as E,I as _}from"./index.eaca9d64.js";import{u as S}from"./index2.fa9449b9.js";const B=r({closable:Boolean,type:{type:String,values:["success","info","warning","danger",""],default:""},hit:Boolean,disableTransitions:Boolean,color:{type:String,default:""},size:{type:String,values:c,default:""},effect:{type:String,values:["dark","light","plain"],default:"light"},round:Boolean}),x={close:e=>e instanceof MouseEvent,click:e=>e instanceof MouseEvent},T=i(($=((e,a)=>{for(var s in a||(a={}))o.call(a,s)&&n(e,s,a[s]);if(t)for(var s of t(a))l.call(a,s)&&n(e,s,a[s]);return e})({},{name:"ElTag"}),a($,s({props:B,emits:x,setup(e,{emit:a}){const s=e,t=S(),o=p("tag"),l=u((()=>{const{type:e,hit:a,effect:l,closable:n,round:r}=s;return[o.b(),o.is("closable",n),o.m(e),o.m(t.value),o.m(l),o.is("hit",a),o.is("round",r)]})),n=e=>{e.stopPropagation(),a("close",e)},r=e=>{a("click",e)};return(e,a)=>e.disableTransitions?(f(),k(w,{key:1,name:`${y(o).namespace.value}-zoom-in-center`},{default:v((()=>[b("span",{class:g(y(l)),style:P({backgroundColor:e.color}),onClick:r},[b("span",{class:g(y(o).e("content"))},[m(e.$slots,"default")],2),e.closable?(f(),k(y(h),{key:0,class:g(y(o).e("close")),onClick:n},{default:v((()=>[j(y(O))])),_:1},8,["class"])):C("v-if",!0)],6)])),_:3},8,["name"])):(f(),d("span",{key:0,class:g(y(l)),style:P({backgroundColor:e.color}),onClick:r},[b("span",{class:g(y(o).e("content"))},[m(e.$slots,"default")],2),e.closable?(f(),k(y(h),{key:0,class:g(y(o).e("close")),onClick:n},{default:v((()=>[j(y(O))])),_:1},8,["class"])):C("v-if",!0)],6))}}))));var $;const z=_(E(T,[["__file","/home/runner/work/element-plus/element-plus/packages/components/tag/src/tag.vue"]]));export{z as E,B as t};
