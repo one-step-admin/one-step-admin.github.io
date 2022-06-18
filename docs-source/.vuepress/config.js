@@ -6,8 +6,7 @@ module.exports = {
 	lang: 'zh-CN',
 	title: 'One-step-admin',
 	description: '一款干啥都快人一步的 Vue 中后台管理系统框架',
-	base: '/',
-	dest: 'docs',
+	base: '/one-step-admin/',
 	head: [
 		['link', { rel: 'icon', href: `./favicon.ico` }],
 		['keywords', { content: 'fantastic-admin,one-step-admin,探索,后台系统,管理后台,后台模版,vue后台,vue-admin,vue-element-admin,vue-admin-template' }],
@@ -48,11 +47,11 @@ module.exports = {
 				children: [
 					{
 						text: '基础版',
-						link: 'https://one-step-admin.netlify.app/basic'
+						link: 'https://hooray.gitee.io/one-step-admin/basic'
 					},
 					{
 						text: '专业版',
-						link: 'https://one-step-admin.netlify.app/pro'
+						link: 'https://hooray.gitee.io/one-step-admin/pro'
 					}
 				]
 			},
@@ -90,7 +89,7 @@ module.exports = {
 					},
 					{
 						text: 'One-step-admin',
-						link: 'https://one-step-admin.netlify.app'
+						link: 'https://hooray.gitee.io/one-step-admin/'
 					}
 				]
 			}
