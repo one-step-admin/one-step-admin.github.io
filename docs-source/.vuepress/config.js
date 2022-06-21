@@ -85,7 +85,7 @@ module.exports = {
 					},
 					{
 						text: 'Fantastaic-admin',
-						link: 'https://fantastic-admin.netlify.app'
+						link: 'https://hooray.gitee.io/fantastic-admin/'
 					},
 					{
 						text: 'One-step-admin',
