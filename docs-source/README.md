@@ -38,10 +38,10 @@ footer: Copyright © One-step-admin
 <div align="center" style="margin: 30px auto;font-size: 18px;line-height: 40px;">
 	<div>
 		<span style="margin: 0 20px;">
-			<a href="basic" target="_blank">基础版</a>
+			<a href="https://hooray.gitee.io/one-step-admin-example/" target="_blank">基础版</a>
 		</span>
 		<span style="margin: 0 20px;">
-			<a href="pro" target="_blank">专业版</a>
+			<a href="https://hooray.gitee.io/one-step-admin-pro-example/" target="_blank">专业版</a>
 		</span>
 	</div>
 </div>

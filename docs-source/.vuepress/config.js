@@ -47,11 +47,11 @@ module.exports = {
 				children: [
 					{
 						text: '基础版',
-						link: 'https://hooray.gitee.io/one-step-admin/basic'
+						link: 'https://hooray.gitee.io/one-step-admin-example/'
 					},
 					{
 						text: '专业版',
-						link: 'https://hooray.gitee.io/one-step-admin/pro'
+						link: 'https://hooray.gitee.io/one-step-admin-pro-example/'
 					}
 				]
 			},
@@ -85,7 +85,7 @@ module.exports = {
 					},
 					{
 						text: 'Fantastaic-admin',
-						link: 'https://fantastic-admin.netlify.app'
+						link: 'https://hooray.gitee.io/fantastic-admin/'
 					},
 					{
 						text: 'One-step-admin',
