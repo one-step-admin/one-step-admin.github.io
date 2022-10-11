@@ -1,17 +1,20 @@
 {
-  "name": "one-step-admin-docs",
+  "name": "fantastic-admin-docs-vitepress",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev docs-source",
-    "build": "vuepress build docs-source"
+    "dev": "vitepress dev .",
+    "build": "vitepress build ."
   },
-  "author": "hooray",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "@vuepress/plugin-search": "2.0.0-beta.45",
-    "vuepress": "2.0.0-beta.45",
-    "vuepress-vite": "2.0.0-beta.45"
+    "vitepress": "1.0.0-alpha.19",
+    "vue": "^3.2.40"
+  },
+  "dependencies": {
+    "medium-zoom": "^1.0.6"
   }
 }
