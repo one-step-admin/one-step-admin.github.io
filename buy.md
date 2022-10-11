@@ -28,7 +28,7 @@ import { withBase } from 'vitepress'
 > 
 > 请相信我们，**我们一定会认真对待每一位专业版用户**！
 
-<!-- ## 支付方式
+## 支付方式
 
 :::tip 领红包
 若你打算使用支付宝进行付款，可以先扫下面这个二维码领取红包。
@@ -63,7 +63,7 @@ import { withBase } from 'vitepress'
 - 虚拟物品不支持退货退款。
 - 最终解释权归 One-step-admin 所有。
 
-## 专业版与基础版区别
+<!-- ## 专业版与基础版区别
 
 <table style="width: 100%; display: table; margin: 1rem auto;">
 	<tr>
