@@ -2,57 +2,6 @@
 import { withBase } from 'vitepress'
 </script>
 
-# 购买专业版
-
-:::warning ⚠️ 购前阅读
-由于咨询和购买专业版的客户较多，作者的QQ在回复消息时，内容中若包含“购买”、“支付”、“付款”等交易相关关键词后，可能会被系统误判为违规操作导致账号冻结。
-
-多次与腾讯客服沟通后告知QQ仅限用于朋友之间交流，不得用于产品宣传、销售等途径。
-
-后续将不在QQ上做购买流程的解答，可按照下方介绍的流程自助购买。
-:::
-
-## 购买流程
-
-1. 请先加作者**微信**或**QQ**：304327508（注明来意），或者点击 [客服1](https://wpa.qq.com/msgrd?v=3&uin=304327508&site=qq&menu=yes) 或 [客服2](https://wpa.qq.com/msgrd?v=3&uin=61830631&site=qq&menu=yes) 进行在线咨询。
-2. 通过微信或支付宝扫码支付，并在备注里留下**手机/微信/QQ/邮箱**等任意一种联系方式。
-3. 支付成功后需提供：
-    - **付款截图凭证**
-    - **授权邮箱号（常用邮箱）**。专业版客户的唯一凭证，用于接收框架相关通知公告的唯一方式，但通常情况下我们不会随意打扰你。
-    - **Github 用户名**。专业版源码托管在 Github 平台，需提供你的 Github 用户名，我们会邀请你加入组织。
-4. 接受邀请后，进入[专业版开发者私有组织](https://github.com/one-step-admin)，获取源码。
-
-> 若你在支付成功并提供相关信息后，作者没有及时回复，请耐心等待。
-> 
-> 若因作者账号被冻结导致无法回复，我们会通过**流程2**里的备注，及时与你取得联系。
-> 
-> 请相信我们，**我们一定会认真对待每一位专业版用户**！
-
-## 支付方式
-
-:::tip 领红包
-若你打算使用支付宝进行付款，可以先扫下面这个二维码领取红包。
-
-<img :src="withBase('/qrcode-alipay-hongbao.jpg')" width="300" />
-:::
-
-<table style="display: table; margin: 1rem auto;">
-	<tr>
-		<th colspan="2" align="center">专业版</th>
-	</tr>
-	<tr>
-		<td colspan="2" align="center"><b style="color: #ff4400;">￥<span style="font-size: 24px;">796.</span>00</b></td>
-	</tr>
-	<tr>
-		<td align="center">
-			<img :src="withBase('/qrcode-wechat.png')" />
-		</td>
-		<td align="center">
-			<img :src="withBase('/qrcode-alipay.png')" />
-		</td>
-	</tr>
-</table>
-
 ## 使用说明
 
 - 购买者可将本产品用于任意「符合国家法律法规」的应用平台，禁止用于黄赌毒等危害国家安全与稳定的网站。
