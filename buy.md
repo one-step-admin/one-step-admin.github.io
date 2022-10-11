@@ -53,7 +53,7 @@ import { withBase } from 'vitepress'
 	</tr>
 </table>
 
-## 使用说明
+<!-- ## 使用说明
 
 - 购买者可将本产品用于任意「符合国家法律法规」的应用平台，禁止用于黄赌毒等危害国家安全与稳定的网站。
 - 本产品购买后可用于开发商业项目，不限制域名和项目数量。
@@ -63,7 +63,7 @@ import { withBase } from 'vitepress'
 - 虚拟物品不支持退货退款。
 - 最终解释权归 One-step-admin 所有。
 
-<!-- ## 专业版与基础版区别
+## 专业版与基础版区别
 
 <table style="width: 100%; display: table; margin: 1rem auto;">
 	<tr>
