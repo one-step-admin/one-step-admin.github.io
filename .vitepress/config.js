@@ -114,10 +114,6 @@ export default {
               {
                 text: '购买',
                 link: '/buy'
-              },
-              {
-                text: '定制开发',
-                link: '/customize'
               }
             ]
           }
@@ -226,7 +222,6 @@ export default {
           text: '',
           items: [
             { text: '购买专业版', link: '/buy' },
-            { text: '定制开发', link: '/customize' },
             { text: '技术支持', link: '/support' },
           ]
         }
