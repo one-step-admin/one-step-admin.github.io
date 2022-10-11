@@ -108,12 +108,12 @@ import { withBase } from 'vitepress'
 		<td align="center">✔️</td>
 	</tr>
 	<tr>
-		<td align="center">窗口操作函数</td>
+		<td align="center">窗口 API</td>
 		<td align="center">支持部分</td>
 		<td align="center">✔️</td>
 	</tr>
 	<tr>
-		<td align="center">窗口右键相关操作</td>
+		<td align="center">窗口右键功能</td>
 		<td align="center"></td>
 		<td align="center">✔️</td>
 	</tr>
