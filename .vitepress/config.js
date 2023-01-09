@@ -96,26 +96,12 @@ export default {
         text: '下载 / 购买',
         items: [
           {
-            text: '基础版',
-            items: [
-              {
-                text: '去 Gitee 下载',
-                link: 'https://gitee.com/hooray/one-step-admin'
-              },
-              {
-                text: '去 Github 下载',
-                link: 'https://github.com/hooray/one-step-admin'
-              }
-            ]
+            text: '下载基础版',
+            link: 'https://github.com/hooray/one-step-admin/releases'
           },
           {
-            text: '专业版',
-            items: [
-              {
-                text: '购买',
-                link: '/buy'
-              }
-            ]
+            text: '购买专业版 ⭐',
+            link: '/buy'
           }
         ]
       }
