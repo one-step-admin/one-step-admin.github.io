@@ -7,42 +7,39 @@
 ### 基础版
 
 :::tip 分支说明
-- `master` 框架源码分支，不含示例代码，可直接用于实际开发
-- `example` 演示源码分支，同演示站，在框架源码基础上，提供了大量示例代码
+- **框架源码** 不含示例代码，可直接用于实际开发
+- **演示源码** 同演示站，在框架源码基础上，提供了大量示例代码
 :::
 
-**手动下载（推荐）**
+到 [Github Releases](https://github.com/hooray/one-step-admin/releases) 页面下载最新版本的压缩包，如下图所示：
 
-`tags` 下提供每个版本的压缩包下载，仅提供框架源码，不提供演示源码。
+<ZoomImg src="/download.png" />
 
-- 去 [Gitee](https://gitee.com/hooray/one-step-admin/tags) 下载
-- 去 [Github](https://github.com/hooray/one-step-admin/tags) 下载
+或者也可以从 Gitee/Github 上拉取源码，但需要注意的是，这种方式拉取的是最新的代码，而不是稳定版本，可能会存在一些问题，所以请谨慎使用。
 
-**git 克隆**
+::: code-group
 
-<!-- TODO 等 vitepress 更新后，使用 code group 代替 -->
-
-```sh
-# 从 Gitee 克隆
-
+```sh [从 Gitee 拉取]
 # 拉取框架源码
 git clone https://gitee.com/hooray/one-step-admin.git
 # 拉取演示源码
 git clone -b example https://gitee.com/hooray/one-step-admin.git
 ```
 
-```sh
-# 从 Github 克隆
-
+```sh [从 Github 拉取]
 # 拉取框架源码
 git clone https://github.com/hooray/one-step-admin.git
 # 拉取演示源码
 git clone -b example https://github.com/hooray/one-step-admin.git
 ```
 
+:::
+
 ### 专业版
 
-[去购买](../buy)
+专业版用户会邀请加入到私有组织，获取源码的方式和基础版一致，只是仓库地址不同。
+
+如果你想获取专业版源码，可以点[这里](../buy)去购买。
 
 ## 开发环境
 

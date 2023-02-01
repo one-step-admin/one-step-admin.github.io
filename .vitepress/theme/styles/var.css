@@ -74,6 +74,16 @@
 .custom-block.details summary {
   cursor: pointer;
 }
+.github-release-tag {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px 6px;
+  margin-left: 6px;
+  background: var(--vp-c-brand);
+  color: white;
+  border-radius: 10px;
+  vertical-align: middle;
+}
 /* 专业版 badge */
 .pro-badge {
   display: inline-block;
