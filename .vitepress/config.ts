@@ -1,4 +1,6 @@
-export default {
+import { defineConfig } from 'vitepress'
+
+export default defineConfig({
   title: 'One-step-admin 官方文档',
   description: '一款开箱即用的 Vue 中后台管理系统框架，采用 Vue3 + Vite2 技术栈。',
   lang: 'zh-CN',
@@ -8,23 +10,24 @@ export default {
     ['meta', { name: 'keywords', content: 'one-step-admin,后台系统,管理后台,后台模版,vue后台,vue-admin,vue-element-admin,vue-admin-template' }],
     ['keywords', { content: 'one-step-admin,后台系统,管理后台,后台模版,vue后台,vue-admin,vue-element-admin,vue-admin-template' }],
     ['description', { content: '一款开箱即用的 Vue 中后台管理系统框架，采用 Vue3 + Vite2 技术栈。' }],
-    ['script', {}, `var _hmt = _hmt || [];
-		_hmt.push(['_requirePlugin', 'UrlChangeTracker', {
-			shouldTrackUrlChange: function(newPath, oldPath) {
-				return newPath && oldPath;
-			}
-		}]);
-		(function() {
-			var hm = document.createElement("script");
-			hm.src = "https://hm.baidu.com/hm.js?506cda33993a1a0af70a34ad844b9663";
-			var s = document.getElementsByTagName("script")[0];
-			s.parentNode.insertBefore(hm, s);
-		})();`]
+    ['script', {}, `
+var _hmt = _hmt || [];
+_hmt.push(['_requirePlugin', 'UrlChangeTracker', {
+  shouldTrackUrlChange: function(newPath, oldPath) {
+    return newPath && oldPath;
+  }
+}]);
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?506cda33993a1a0af70a34ad844b9663";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();`],
   ],
   themeConfig: {
     logo: '/logo.png',
     footer: {
-      copyright: 'Copyright © 2020-present One-step-admin'
+      copyright: 'Copyright © 2020-present One-step-admin',
     },
     nav: [
       {
@@ -37,38 +40,38 @@ export default {
           {
             text: '组件',
             link: '/components/index',
-          }
-        ]
+          },
+        ],
       },
       {
         text: '在线演示',
         items: [
           {
             text: '基础版',
-            link: 'https://hooray.gitee.io/one-step-admin-example/'
+            link: 'https://hooray.gitee.io/one-step-admin-example/',
           },
           {
             text: '专业版',
-            link: 'https://hooray.gitee.io/one-step-admin-pro-example/'
+            link: 'https://hooray.gitee.io/one-step-admin-pro-example/',
           },
           {
             text: '备用地址',
             items: [
               {
                 text: '基础版',
-                link: 'https://hooray.github.io/one-step-admin-example/'
+                link: 'https://hooray.github.io/one-step-admin-example/',
               },
               {
                 text: '专业版',
-                link: 'https://hooray.github.io/one-step-admin-pro-example/'
-              }
-            ]
-          }
-        ]
+                link: 'https://hooray.github.io/one-step-admin-pro-example/',
+              },
+            ],
+          },
+        ],
       },
       {
         text: '技术支持',
-        link: '/support'
+        link: '/support',
       },
       {
         text: '生态',
@@ -78,44 +81,44 @@ export default {
             items: [
               {
                 text: 'Fantastaic-startkit',
-                link: 'https://hooray.gitee.io/fantastic-startkit/'
+                link: 'https://hooray.gitee.io/fantastic-startkit/',
               },
               {
                 text: 'Fantastaic-admin',
-                link: 'https://hooray.gitee.io/fantastic-admin/'
+                link: 'https://hooray.gitee.io/fantastic-admin/',
               },
               {
                 text: 'One-step-admin',
-                link: 'https://hooray.gitee.io/one-step-admin/'
-              }
-            ]
-          }
-        ]
+                link: 'https://hooray.gitee.io/one-step-admin/',
+              },
+            ],
+          },
+        ],
       },
       {
         text: '下载 / 购买',
         items: [
           {
             text: '下载基础版',
-            link: 'https://github.com/hooray/one-step-admin/releases'
+            link: 'https://github.com/hooray/one-step-admin/releases',
           },
           {
             text: '购买专业版 ⭐',
-            link: '/buy'
-          }
-        ]
-      }
+            link: '/buy',
+          },
+        ],
+      },
     ],
     socialLinks: [
       {
         icon: {
-          svg: '<svg t="1663266323098" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2880" width="200" height="200"><path d="M512 1024C230.4 1024 0 793.6 0 512S230.4 0 512 0s512 230.4 512 512-230.4 512-512 512z m259.2-569.6H480c-12.8 0-25.6 12.8-25.6 25.6v64c0 12.8 12.8 25.6 25.6 25.6h176c12.8 0 25.6 12.8 25.6 25.6v12.8c0 41.6-35.2 76.8-76.8 76.8h-240c-12.8 0-25.6-12.8-25.6-25.6V416c0-41.6 35.2-76.8 76.8-76.8h355.2c12.8 0 25.6-12.8 25.6-25.6v-64c0-12.8-12.8-25.6-25.6-25.6H416c-105.6 0-188.8 86.4-188.8 188.8V768c0 12.8 12.8 25.6 25.6 25.6h374.4c92.8 0 169.6-76.8 169.6-169.6v-144c0-12.8-12.8-25.6-25.6-25.6z" p-id="2881"></path></svg>'
+          svg: '<svg t="1663266323098" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2880" width="200" height="200"><path d="M512 1024C230.4 1024 0 793.6 0 512S230.4 0 512 0s512 230.4 512 512-230.4 512-512 512z m259.2-569.6H480c-12.8 0-25.6 12.8-25.6 25.6v64c0 12.8 12.8 25.6 25.6 25.6h176c12.8 0 25.6 12.8 25.6 25.6v12.8c0 41.6-35.2 76.8-76.8 76.8h-240c-12.8 0-25.6-12.8-25.6-25.6V416c0-41.6 35.2-76.8 76.8-76.8h355.2c12.8 0 25.6-12.8 25.6-25.6v-64c0-12.8-12.8-25.6-25.6-25.6H416c-105.6 0-188.8 86.4-188.8 188.8V768c0 12.8 12.8 25.6 25.6 25.6h374.4c92.8 0 169.6-76.8 169.6-169.6v-144c0-12.8-12.8-25.6-25.6-25.6z" p-id="2881"></path></svg>',
         },
-        link: 'https://gitee.com/hooray/one-step-admin'
+        link: 'https://gitee.com/hooray/one-step-admin',
       },
       {
-        icon: 'github', link: 'https://github.com/hooray/one-step-admin'
-      }
+        icon: 'github', link: 'https://github.com/hooray/one-step-admin',
+      },
     ],
     sidebar: {
       '/guide/': [
@@ -123,9 +126,9 @@ export default {
           text: '指引',
           items: [
             { text: '文档说明', link: '/guide/intro' },
-            { text: '为什么选择我们 ?', link: '/guide/why' }
+            { text: '为什么选择我们 ?', link: '/guide/why' },
           ],
-          collapsible: true
+          collapsed: false,
         },
         {
           text: '入门',
@@ -143,9 +146,9 @@ export default {
             { text: '全局状态管理', link: '/guide/store' },
             { text: '全局资源', link: '/guide/global-resources' },
             { text: '图标', link: '/guide/svg-icon' },
-            { text: '构建与预览', link: '/guide/build' }
+            { text: '构建与预览', link: '/guide/build' },
           ],
-          collapsible: true
+          collapsed: false,
         },
         {
           text: '高级',
@@ -157,26 +160,26 @@ export default {
             { text: '常用 API', link: '/guide/api' },
             { text: '私有 Storage 数据', link: '/guide/storage' },
             { text: '错误日志', link: '/guide/error-log' },
-            { text: '自定义字体', link: '/guide/font' }
+            { text: '自定义字体', link: '/guide/font' },
           ],
-          collapsible: true
+          collapsed: false,
         },
         {
           text: '其它',
           items: [
             { text: '使用 Composition API 开发', link: '/guide/vue3-composition-api' },
             { text: '框架更新', link: '/guide/upgrade' },
-            { text: '常见问题', link: '/guide/q-a' }
+            { text: '常见问题', link: '/guide/q-a' },
           ],
-          collapsible: true
-        }
+          collapsed: false,
+        },
       ],
       '/components/': [
         {
           text: '组件',
           items: [
             { text: '介绍', link: '/components/' },
-          ]
+          ],
         },
         {
           text: '扩展组件',
@@ -199,9 +202,9 @@ export default {
             { text: 'ColorfulCard 多彩渐变卡片', link: '/components/colorful-card' },
             { text: 'IconPicker 图标选择器', link: '/components/icon-picker' },
             { text: 'Sparkline 迷你图', link: '/components/sparkline' },
-            { text: 'I18nSelector 国际化选择器', link: '/components/i18n-selector' }
-          ]
-        }
+            { text: 'I18nSelector 国际化选择器', link: '/components/i18n-selector' },
+          ],
+        },
       ],
       '/': [
         {
@@ -209,9 +212,22 @@ export default {
           items: [
             { text: '购买专业版', link: '/buy' },
             { text: '技术支持', link: '/support' },
-          ]
-        }
-      ]
-    }
-  }
-}
+          ],
+        },
+      ],
+    },
+    search: {
+      provider: 'local',
+      options: {
+        translations: {
+          button: { buttonText: '搜索文档', buttonAriaLabel: '搜索文档' },
+          modal: {
+            noResultsText: '无法找到相关结果',
+            resetButtonTitle: '清除查询条件',
+            footer: { selectText: '选择', navigateText: '切换', closeText: '关闭' },
+          },
+        },
+      },
+    },
+  },
+})

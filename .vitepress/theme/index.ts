@@ -8,10 +8,10 @@ export default {
   ...Theme,
   Layout() {
     return h(Theme.Layout, null, {
-      'home-features-after': () => h(HomePreview)
+      'home-features-after': () => h(HomePreview),
     })
   },
   enhanceApp({ app }) {
     app.component('ZoomImg', ZoomImg)
-  }
+  },
 }
