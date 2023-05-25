@@ -153,6 +153,7 @@ _hmt.push(['_requirePlugin', 'UrlChangeTracker', {
         {
           text: '高级',
           items: [
+            { text: '登录', link: '/guide/login' },
             { text: '权限', link: '/guide/permission' },
             { text: '国际化', link: '/guide/i18n' },
             { text: '代码文件自动生成', link: '/guide/plop' },
@@ -190,7 +191,6 @@ _hmt.push(['_requirePlugin', 'UrlChangeTracker', {
             { text: 'PageMain 内容块', link: '/components/page-main' },
             { text: 'ActionContainer 固定底部操作栏', link: '/components/action-container' },
             { text: 'SearchBar 搜索面板', link: '/components/search-bar' },
-            { text: 'BatchActionBar 批量操作栏', link: '/components/batch-action-bar' },
             { text: 'ImageUpload 单图上传', link: '/components/image-upload' },
             { text: 'ImagesUpload 多图上传', link: '/components/images-upload' },
             { text: 'FileUpload 文件上传', link: '/components/file-upload' },
@@ -203,6 +203,7 @@ _hmt.push(['_requirePlugin', 'UrlChangeTracker', {
             { text: 'IconPicker 图标选择器', link: '/components/icon-picker' },
             { text: 'Sparkline 迷你图', link: '/components/sparkline' },
             { text: 'I18nSelector 国际化选择器', link: '/components/i18n-selector' },
+            { text: 'StorageBox 储存箱', link: '/components/storage-box' },
           ],
         },
       ],

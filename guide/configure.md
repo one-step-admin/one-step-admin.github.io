@@ -71,6 +71,7 @@ VITE_BUILD_COMPRESS = gzip,brotli
 const globalSettings: Settings.all = {
   app: {
     enablePermission: true,
+    enableAppSetting: true,
   },
   menu: {
     enableSubMenuCollapseButton: true,
@@ -79,7 +80,6 @@ const globalSettings: Settings.all = {
   toolbar: {
     enableFullscreen: true,
     enableColorScheme: true,
-    enableAppSetting: true,
   },
 }
 ```

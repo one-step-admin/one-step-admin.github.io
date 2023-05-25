@@ -8,31 +8,12 @@ Composition API 是 Vue3 全新提供的一种语法，对于从 Vue2 就在使�
 
 同时得益于 [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import) 的特性，在 `<script setup>` 里无需导入相关 API ，该依赖会自动导入（默认支持 vue，vue-router 和 pinia ）。
 
-```vue {3-4}
-<script setup>
-// 原先需要手动 import 相关 API
-import { ref, computed } from 'vue'
-import { useRoute, useRouter } from 'vue-router'
-
-const count = ref(0)
-const doubled = computed(() => count.value * 2)
-
-const route = useRoute()
-const router = useRouter()
-console.log(route.path)
-router.push('/dashboard')
-</script>
-```
-
 ```vue
 <script setup>
-// 现在直接使用即可
+// 无需手动 import 相关 API
+import { ref, computed } from 'vue' // [!code --]
+
 const count = ref(0)
 const doubled = computed(() => count.value * 2)
-
-const route = useRoute()
-const router = useRouter()
-console.log(route.path)
-router.push('/dashboard')
 </script>
 ```
