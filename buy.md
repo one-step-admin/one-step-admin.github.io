@@ -4,28 +4,44 @@ import { withBase } from 'vitepress'
 
 # 购买专业版
 
-:::warning ⚠️ 购前阅读
-由于咨询和购买专业版的客户较多，作者的QQ在回复消息时，内容中若包含“购买”、“支付”、“付款”等交易相关关键词后，可能会被系统误判为违规操作导致账号冻结。
+## 超值优惠合集，立减 <b style="color: #ff4400;">799</b> 元
 
-多次与腾讯客服沟通后告知QQ仅限用于朋友之间交流，不得用于产品宣传、销售等途径。
+:::details 查看详情
+同时购买 One-step-admin 专业版 <sup>￥999.00</sup> 和 [Fantastic-admin](https://hooray.gitee.io/fantastic-admin/) 专业版 <sup>￥1099.00</sup>
 
-后续将不在QQ上做购买流程的解答，可按照下方介绍的流程自助购买。
+原价 ￥2098.00 ，现在只需 <b style="color: #ff4400;">￥<span style="font-size: 24px;">1299</span>.00</b>
+
+<table style="width: 100%; display: table; margin: 1rem auto;">
+  <tr>
+    <td align="center">
+      <img :src="withBase('/qrcode-wechat-all.png')" />
+    </td>
+    <td align="center">
+      <img :src="withBase('/qrcode-alipay-all.png')" />
+    </td>
+  </tr>
+</table>
+
+Fantastic-admin 和 One-step-admin 都是管理后台框架，它们的区别在于交互方式和适用场景上的不同。Fantastic-admin 通用性强，符合大众默认的操作习惯；One-step-admin 则独创了一种全新的交互方式，提高了操作效率，有别于市面上所有管理后台框架。
 :::
 
 ## 购买流程
 
-1. 请先加作者**微信**或**QQ**：304327508（注明来意），或者点击 [客服1](https://wpa.qq.com/msgrd?v=3&uin=304327508&site=qq&menu=yes) 或 [客服2](https://wpa.qq.com/msgrd?v=3&uin=61830631&site=qq&menu=yes) 进行在线咨询。
-2. 通过微信或支付宝扫码支付，并在备注里留下**手机/微信/QQ/邮箱**等任意一种联系方式。
+1. 请先加作者微信进行在线咨询。
+
+<p align="center"><img :src="withBase('/friend-wechat.png')" width="300" /></p>
+
+2. 通过**微信**或**支付宝**扫码支付，并在备注里留下**手机/微信/QQ/邮箱**等任意一种联系方式。
 3. 支付成功后需提供：
     - **付款截图凭证**
     - **授权邮箱号（常用邮箱）**。专业版客户的唯一凭证，用于接收框架相关通知公告的唯一方式，但通常情况下我们不会随意打扰你。
     - **Github 用户名**。专业版源码托管在 Github 平台，需提供你的 Github 用户名，我们会邀请你加入组织。
-4. 接受邀请后，进入[专业版开发者私有组织](https://github.com/one-step-admin)，获取源码。
+4. 同意邀请后，进入[专业版开发者私有组织](https://github.com/one-step-admin)，获取源码。
 
 > 若你在支付成功并提供相关信息后，作者没有及时回复，请耐心等待。
-> 
+>
 > 若因作者账号被冻结导致无法回复，我们会通过**流程2**里的备注，及时与你取得联系。
-> 
+>
 > 请相信我们，**我们一定会认真对待每一位专业版用户**！
 
 ## 支付方式
@@ -33,24 +49,32 @@ import { withBase } from 'vitepress'
 :::tip 领红包
 若你打算使用支付宝进行付款，可以先扫下面这个二维码领取红包。
 
-<img :src="withBase('/qrcode-alipay-hongbao.jpg')" width="300" />
+<img :src="withBase('/qrcode-alipay-hongbao.jpg')" width="200" />
 :::
 
 <table style="display: table; margin: 1rem auto;">
-	<tr>
-		<th colspan="2" align="center">专业版</th>
-	</tr>
-	<tr>
-		<td colspan="2" align="center"><b style="color: #ff4400;">￥<span style="font-size: 24px;">796.</span>00</b></td>
-	</tr>
-	<tr>
-		<td align="center">
-			<img :src="withBase('/qrcode-wechat.png')" />
-		</td>
-		<td align="center">
-			<img :src="withBase('/qrcode-alipay.png')" />
-		</td>
-	</tr>
+  <tr>
+    <th colspan="2" style="text-align: center;">One-step-admin 专业版</th>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <div>限时优惠：<b style="color: #ff4400;">￥<span style="font-size: 24px;">799</span>.00</b></div>
+      <b style="color: #ccc;">原价：￥999.00</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img :src="withBase('/qrcode-wechat.png')" />
+    </td>
+    <td align="center">
+      <img :src="withBase('/qrcode-alipay.png')" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <p style="margin: 0;">产品生命周期内提供长期更新维护</p>
+    </td>
+  </tr>
 </table>
 
 ## 使用说明
@@ -66,132 +90,142 @@ import { withBase } from 'vitepress'
 ## 专业版与基础版区别
 
 <table style="width: 100%; display: table; margin: 1rem auto;">
-	<tr>
-		<th width="40%" align="center">⭐功能与服务⭐</th>
-		<th width="30%" align="center">基础版</th>
-		<th width="30%" align="center">专业版</th>
-	</tr>
-	<tr>
-		<td align="center">长期维护更新，提供新特性</td>
-		<td colspan="2" align="center">✔️</td>
-	</tr>
-	<tr>
-		<td align="center">定期修复 bug</td>
-		<td colspan="2" align="center">✔️</td>
-	</tr>
-	<tr>
-		<td align="center">开发与构建工具</td>
-		<td colspan="2" align="center">Vue 3 / Vite 3</td>
-	</tr>
-	<tr>
-		<td align="center">UI 组件库</td>
-		<td colspan="2" align="center">Element Plus</td>
-	</tr>
-	<tr>
-		<td align="center">页面布局</td>
-		<td align="center">3 套</td>
-		<td align="center" style="color: #e34d22;">5 套</td>
-	</tr>
-	<tr>
-		<td align="center">主题风格</td>
-		<td align="center">明亮 1 款 / 暗黑 1 款</td>
-		<td align="center" style="color: #e34d22;">明亮 6 款 / 暗黑 6 款</td>
-	</tr>
-	<tr>
-		<td align="center">导航路由配置项</td>
-		<td align="center">5 个</td>
-		<td align="center" style="color: #e34d22;">8 个</td>
-	</tr>
-	<tr>
-		<td align="center">外链导航</td>
-		<td align="center">✔️</td>
-		<td align="center">✔️</td>
-	</tr>
-	<tr>
-		<td align="center">窗口 API</td>
-		<td align="center">支持部分</td>
-		<td align="center">✔️</td>
-	</tr>
-	<tr>
-		<td align="center">窗口右键功能</td>
-		<td align="center"></td>
-		<td align="center">✔️</td>
-	</tr>
-	<tr>
-		<td align="center">窗口预览模式</td>
-		<td align="center">✔️</td>
-		<td align="center">✔️</td>
-	</tr>
-	<tr>
-		<td align="center">窗口专注模式</td>
-		<td align="center"></td>
-		<td align="center">✔️</td>
-	</tr>
-	<tr>
-		<td align="center">窗口拖拽排序</td>
-		<td align="center"></td>
-		<td align="center">✔️</td>
-	</tr>
-	<tr>
-		<td align="center">全方位权限验证</td>
-		<td align="center">✔️</td>
-		<td align="center">✔️</td>
-	</tr>
-	<tr>
-		<td align="center">扩展组件</td>
-		<td align="center">12 个</td>
-		<td align="center" style="color: #e34d22;">18 个</td>
-	</tr>
-	<tr>
-		<td align="center">国际化</td>
-		<td align="center"></td>
-		<td align="center">✔️</td>
-	</tr>
-	<tr>
-		<td align="center">Mock 数据</td>
-		<td align="center">✔️</td>
-		<td align="center">✔️</td>
-	</tr>
-	<tr>
-		<td align="center">错误日志上报</td>
-		<td align="center"></td>
-		<td align="center">✔️</td>
-	</tr>
-	<tr>
-		<td align="center">文件自动生成</td>
-		<td align="center">支持部分</td>
-		<td align="center">✔️</td>
-	</tr>
-	<tr>
-		<td align="center">业务应用静态页面</td>
-		<td align="center"></td>
-		<td align="center">✔️</td>
-	</tr>
-	<tr>
-		<td align="center">团队代码规范</td>
-		<td align="center">✔️</td>
-		<td align="center">✔️</td>
-	</tr>
-	<tr>
-		<td align="center">框架版权信息</td>
-		<td align="center">需保留</td>
-		<td align="center">可删除</td>
-	</tr>
-	<tr>
-		<td align="center">技术支持</td>
-		<td colspan="2" align="center">
-			<a href="support">查看</a>
-		</td>
-	</tr>
-	<tr>
-		<td align="center">演示地址</td>
-		<td align="center">
-			<a href="https://hooray.gitee.io/one-step-admin-example/" target="_blank">访问</a>
-		</td>
-		<td align="center">
-			<a href="https://hooray.gitee.io/one-step-admin-pro-example/" target="_blank">访问</a>
-		</td>
-	</tr>
+  <tr>
+    <th width="40%" style="text-align: center;">⭐功能与服务⭐</th>
+    <th width="30%" style="text-align: center;">基础版</th>
+    <th width="30%" style="text-align: center;">专业版</th>
+  </tr>
+  <tr>
+    <td align="center">长期维护更新，提供新特性</td>
+    <td colspan="2" align="center">✅</td>
+  </tr>
+  <tr>
+    <td align="center">定期修复 bug</td>
+    <td colspan="2" align="center">✅</td>
+  </tr>
+  <tr>
+    <td align="center">开发与构建工具</td>
+    <td colspan="2" align="center">Vue 3 / Vite 4</td>
+  </tr>
+  <tr>
+    <td align="center">UI 组件库</td>
+    <td colspan="2" align="center">Element Plus</td>
+  </tr>
+  <tr>
+    <td align="center">页面布局</td>
+    <td align="center">3 套</td>
+    <td align="center" style="color: #e34d22;">5 套</td>
+  </tr>
+  <tr>
+    <td align="center">主题风格</td>
+    <td align="center">明亮 1 款 / 暗黑 1 款</td>
+    <td align="center" style="color: #e34d22;">明亮 6 款 / 暗黑 6 款</td>
+  </tr>
+  <tr>
+    <td align="center">导航路由配置项</td>
+    <td align="center">5 个</td>
+    <td align="center" style="color: #e34d22;">8 个</td>
+  </tr>
+  <tr>
+    <td align="center">外链导航</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td align="center">窗口 API</td>
+    <td align="center">支持部分</td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td align="center">窗口右键功能</td>
+    <td align="center"></td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td align="center">窗口预览模式</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td align="center">窗口专注模式</td>
+    <td align="center"></td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td align="center">窗口拖拽排序</td>
+    <td align="center"></td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td align="center">收藏夹</td>
+    <td align="center"></td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td align="center">全方位权限验证</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td align="center">扩展组件</td>
+    <td align="center">12 个</td>
+    <td align="center" style="color: #e34d22;">20 个</td>
+  </tr>
+  <tr>
+    <td align="center">用户偏好设置</td>
+    <td align="center"></td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td align="center">国际化</td>
+    <td align="center"></td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td align="center">Mock 数据</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td align="center">错误日志上报</td>
+    <td align="center"></td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td align="center">文件自动生成</td>
+    <td align="center">支持部分</td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td align="center">业务应用静态页面</td>
+    <td align="center"></td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td align="center">团队代码规范</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td align="center">框架版权信息</td>
+    <td align="center">需保留</td>
+    <td align="center">可删除</td>
+  </tr>
+  <tr>
+    <td align="center">技术支持</td>
+    <td colspan="2" align="center">
+      <a href="support">查看</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">演示地址</td>
+    <td align="center">
+      <a href="https://hooray.gitee.io/one-step-admin-example/" target="_blank">访问</a>
+    </td>
+    <td align="center">
+      <a href="https://hooray.gitee.io/one-step-admin-pro-example/" target="_blank">访问</a>
+    </td>
+  </tr>
 </table>
 
 ## 什么场景需要 One-step-admin
