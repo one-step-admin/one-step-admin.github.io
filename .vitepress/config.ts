@@ -31,7 +31,7 @@ _hmt.push(['_requirePlugin', 'UrlChangeTracker', {
   themeConfig: {
     logo: '/logo.png',
     footer: {
-      copyright: 'Copyright © 2020-present One-step-admin',
+      copyright: 'Copyright © 2021-present One-step-admin',
     },
     nav: [
       {
@@ -52,22 +52,22 @@ _hmt.push(['_requirePlugin', 'UrlChangeTracker', {
         items: [
           {
             text: '基础版',
-            link: 'https://one-step-admin.gitee.io/basic-example/',
+            link: 'https://one-step-admin.gitee.io/basic-example',
           },
           {
             text: '专业版',
-            link: 'https://one-step-admin.gitee.io/pro-example/',
+            link: 'https://one-step-admin.gitee.io/pro-example',
           },
           {
             text: '备用地址',
             items: [
               {
                 text: '基础版',
-                link: 'https://one-step-admin.github.io/basic-example/',
+                link: 'https://one-step-admin.github.io/basic-example',
               },
               {
                 text: '专业版',
-                link: 'https://one-step-admin.github.io/pro-example/',
+                link: 'https://one-step-admin.github.io/pro-example',
               },
             ],
           },
@@ -85,15 +85,15 @@ _hmt.push(['_requirePlugin', 'UrlChangeTracker', {
             items: [
               {
                 text: 'Fantastaic-startkit',
-                link: 'https://hooray.gitee.io/fantastic-startkit/',
+                link: 'https://hooray.gitee.io/fantastic-startkit',
               },
               {
                 text: 'Fantastaic-admin',
-                link: 'https://fantastic-admin.gitee.io/',
+                link: 'https://fantastic-admin.gitee.io',
               },
               {
                 text: 'One-step-admin',
-                link: 'https://one-step-admin.gitee.io/',
+                link: 'https://one-step-admin.gitee.io',
               },
             ],
           },
