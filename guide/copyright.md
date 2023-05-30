@@ -47,7 +47,7 @@ const globalSettings: Settings.all = {
 ```ts {2-4}
 const globalSettings: Settings.all = {
   copyright: {
-    website: 'https://hooray.gitee.io/one-step-admin/',
+    website: 'https://one-step-admin.gitee.io/',
   },
 }
 ```
