@@ -1,0 +1,1 @@
+import{_ as e,o,c as t,V as a}from"./chunks/framework.9d6c2075.js";const w=JSON.parse('{"title":"窗口","description":"","frontmatter":{},"headers":[],"relativePath":"guide/window.md","filePath":"guide/window.md"}'),c={name:"guide/window.md"},d=a("",4),i=[d];function s(n,_,r,p,l,u){return o(),t("div",null,i)}const h=e(c,[["render",s]]);export{w as __pageData,h as default};

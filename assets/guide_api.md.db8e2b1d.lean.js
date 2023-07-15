@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,V as l}from"./chunks/framework.9d6c2075.js";const C=JSON.parse('{"title":"常用 API","description":"","frontmatter":{},"headers":[],"relativePath":"guide/api.md","filePath":"guide/api.md"}'),o={name:"guide/api.md"},p=l("",28),e=[p];function t(c,r,i,D,y,F){return a(),n("div",null,e)}const d=s(o,[["render",t]]);export{C as __pageData,d as default};
