@@ -20,7 +20,7 @@ export default menus
 ```
 
 :::warning 注意事项
-- 整个项目所有导航的 `windowName` 不能重复
+整个项目所有导航的 `windowName` 不能重复
 :::
 
 ### 多级导航

@@ -2,35 +2,45 @@
 
 如果你正在做后台框架相关的调研或选型，相信这篇介绍能帮助你快速了解 One-step-admin 的特点，以及与传统后台框架的对比。
 
+## 长期且稳定
+
+<script setup>
+const from = '2021/11/01'
+const time = new Date().getTime() / 1000 - new Date(from).getTime() / 1000
+const day = parseInt(time / 60 / 60 / 24)
+</script>
+
+One-step-admin 自 {{ from }} 正式对外发布，截止到今天为止，已持续维护 **{{ day }}** 天。
+
 ## 高效的交互方式
 
 摆脱传统后台框架路由跳转的交互，将每个模块以**窗口**的形式展示在同一个界面中，让使用人员可以做到跨模块的多线操作。
 
-<ZoomImg src="/intro-1.gif" />
+![](/intro-1.gif){data-zoomable}
 
 ## 窗口最大化
 
 窗口默认宽度为 800px ，可以在项目中进行调整，也可以通过最大化按钮将窗口最大化展示，以便展示更多信息。
 
-<ZoomImg src="/intro-2.gif" />
+![](/intro-2.gif){data-zoomable}
 
 ## 快速定位操作窗口
 
 提供的预览界面可以帮助使用人员快速定位到需要操作的窗口。
 
-<ZoomImg src="/intro-3.gif" />
+![](/intro-3.gif){data-zoomable}
 
 ## 专注模式
 
 可勾选多个窗口平均分布在页面中，专注于所勾选的窗口进行操作。
 
-<ZoomImg src="/intro-4.gif" />
+![](/intro-4.gif){data-zoomable}
 
 ## 窗口排序
 
 快速调整窗口的展示顺序。
 
-<ZoomImg src="/intro-5.gif" />
+![](/intro-5.gif){data-zoomable}
 
 ## 继承自 Fantastic-admin
 

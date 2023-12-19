@@ -6,14 +6,14 @@
 
 ### 基础版
 
-:::tip 分支说明
+:::tip 说明
 - **框架源码** 不含示例代码，可直接用于实际开发
 - **演示源码** 同演示站，在框架源码基础上，提供了大量示例代码
 :::
 
 到 [Github Releases](https://github.com/one-step-admin/basic/releases) 页面下载最新版本的压缩包，如下图所示：
 
-<ZoomImg src="/download.png" />
+![](/download.png){data-zoomable}
 
 或者也可以从 Gitee/Github 上拉取源码，但需要注意的是，这种方式拉取的是最新的代码，而不是稳定版本，可能会存在一些问题，所以请谨慎使用。
 
@@ -43,10 +43,10 @@ git clone -b example https://github.com/one-step-admin/basic.git
 
 ## 开发环境
 
-使用本模板前，需要在本地依次安装好 [Node.js](https://nodejs.org/zh-cn/), [pnpm](https://pnpm.io/zh/), [Git](https://git-scm.com/) 和 [Visual Studio Code](https://code.visualstudio.com/)。
+使用本模板前，需要在本地依次安装好 [Node.js](https://nodejs.org/), [pnpm](https://pnpm.io/zh/), [Git](https://git-scm.com/) 和 [Visual Studio Code](https://code.visualstudio.com/)。
 
 ::: warning 注意
-Node.js 需要使用 16+ 版本，建议为 18+ 版本。
+Node.js 需要使用 18+ / 20+ 版本。
 :::
 
 然后在 Visual Studio Code 里安装好以下扩展：
@@ -57,13 +57,16 @@ Node.js 需要使用 16+ 版本，建议为 18+ 版本。
 - [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
 - [Vue Language Features](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 - [TypeScript Vue Plugin](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)
+- [UnoCSS](https://marketplace.visualstudio.com/items?itemName=antfu.unocss)
 
 在 Visual Studio Code 里打开源码的文件夹，右下角会自动提示需要安装的依赖，直接点击安装即可。
 
-<ZoomImg src="/vscode.png" />
+![](/vscode.png){data-zoomable}
+
+同时建议开启 Volar 的 Takeover 模式，开启方式请参考 [Volar Takeover 模式](https://cn.vuejs.org/guide/typescript/overview.html#volar-takeover-mode)。
 
 ::: tip 建议
-以上 6 个为开发时必备扩展，以下则是作者建议安装的扩展，安装它们将在一定程度上提升开发效率。
+以上为开发时必备扩展，以下则是作者推荐安装的扩展，安装它们将在一定程度上提升开发效率。
 
 - [Chinese (Simplified) Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans) 中文语言包
 - [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) 在代码中高亮颜色
@@ -84,4 +87,4 @@ Node.js 需要使用 16+ 版本，建议为 18+ 版本。
 - [Vue 3](https://cn.vuejs.org/) ([v3 迁移指南](https://v3-migration.vuejs.org/))
 - [Vue Router 4](https://router.vuejs.org/zh/)
 - [Pinia](https://pinia.vuejs.org/zh/)
-- [Element Plus](https://element-plus.org/zh-CN/)
+- [UnoCss](https://unocss.dev/)

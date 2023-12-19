@@ -1,22 +1,22 @@
 {
   "name": "one-step-admin-docs-vitepress",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "dev": "vitepress dev .",
     "build": "vitepress build ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@antfu/eslint-config": "1.0.0-beta.3",
-    "vitepress": "1.0.0-rc.15",
-    "vue": "^3.3.4"
-  },
   "dependencies": {
-    "medium-zoom": "^1.0.8"
+    "medium-zoom": "^1.1.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "2.4.6",
+    "vitepress": "1.0.0-rc.32",
+    "vue": "^3.3.13"
   }
 }

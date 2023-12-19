@@ -2,6 +2,10 @@
 :root {
   --vp-sidebar-width: 294px;
 }
+/* 字体 */
+:root {
+  --vp-font-family-mono: ui-monospace, SFMono-Regular, 'Fira Code', 'SF Mono', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+}
 /* 首页 */
 :root {
   --vp-home-hero-name-color: transparent;
@@ -53,6 +57,13 @@
   border-radius: 10px;
   vertical-align: middle;
 }
+/* medium-zoom */
+.medium-zoom-overlay {
+  z-index: 30;
+}
+.medium-zoom-image {
+  z-index: 31;
+}
 /* 专业版 badge */
 .pro-badge {
   display: inline-block;
@@ -67,4 +78,15 @@
 }
 .pro-badge:before {
   content: '专业版';
+}
+a.cta {
+  text-align: center;
+  border-radius: 8px;
+}
+a.cta:hover {
+  border-color: var(--vp-c-brand);
+  background-color: var(--c-bg-accent);
+}
+a.cta.buy {
+  border-color: goldenrod;
 }

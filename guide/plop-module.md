@@ -51,7 +51,7 @@ const menu = [
 
 这时候就可以通过导航栏访问到我们的窗口了，我们的一个演示模块也就初步创建好了。
 
-<ZoomImg src="/module1.gif" />
+![](/module1.gif){data-zoomable}
 
 ## 特性介绍
 
@@ -101,7 +101,7 @@ const data = ref({
 
 标准模块提供了 2 种详情展示模式，默认是弹窗的方式，你可以修改 `formMode: 'drawer'` 开启抽屉模式，保存后效果如下：
 
-<ZoomImg src="/module2.gif" />
+![](/module2.gif){data-zoomable}
 
 再往下就是需要你修改或编写业务代码的部分，这里就不继续展开了。
 

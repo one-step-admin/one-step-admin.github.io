@@ -14,7 +14,7 @@
 
 ### 顶部模式
 
-<ZoomImg src="/menu-mode-head.png" />
+![](/menu-mode-head.png){data-zoomable}
 
 ```ts {2-4}
 const globalSettings: Settings.all = {
@@ -26,7 +26,7 @@ const globalSettings: Settings.all = {
 
 ### 侧边栏模式（含主导航）
 
-<ZoomImg src="/menu-mode-side.png" />
+![](/menu-mode-side.png){data-zoomable}
 
 ```ts {2-4}
 const globalSettings: Settings.all = {
@@ -38,7 +38,7 @@ const globalSettings: Settings.all = {
 
 ### 侧边栏模式（无主导航）
 
-<ZoomImg src="/menu-mode-single.png" />
+![](/menu-mode-single.png){data-zoomable}
 
 ```ts {2-4}
 const globalSettings: Settings.all = {
@@ -50,7 +50,7 @@ const globalSettings: Settings.all = {
 
 ### 侧边栏精简模式 <sup class="pro-badge" />
 
-<ZoomImg src="/menu-mode-only-side.png" />
+![](/menu-mode-only-side.png){data-zoomable}
 
 ```ts {2-4}
 const globalSettings: Settings.all = {
@@ -62,7 +62,7 @@ const globalSettings: Settings.all = {
 
 ### 顶部精简模式 <sup class="pro-badge" />
 
-<ZoomImg src="/menu-mode-only-head.png" />
+![](/menu-mode-only-head.png){data-zoomable}
 
 ```ts {2-4}
 const globalSettings: Settings.all = {
