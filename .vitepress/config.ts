@@ -161,6 +161,7 @@ _hmt.push(['_requirePlugin', 'UrlChangeTracker', {
             { text: '权限', link: '/guide/permission' },
             { text: '布局', link: '/guide/layout' },
             { text: '主题', link: '/guide/theme' },
+            { text: '工具栏', link: '/guide/toolbar' },
             { text: '收藏夹', link: '/guide/favorites' },
             { text: '版权信息', link: '/guide/copyright' },
           ],
