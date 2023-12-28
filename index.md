@@ -60,9 +60,11 @@ features:
 
 <script setup>
 import { onMounted } from 'vue'
-import { fetchReleaseTag } from './.vitepress/utils/fetchReleaseTag.js'
+import { pureFrontendTag } from './.vitepress/utils/pureFrontendTag'
+import { fetchReleaseTag } from './.vitepress/utils/fetchReleaseTag'
 
 onMounted(() => {
+  pureFrontendTag()
   fetchReleaseTag()
 })
 </script>
