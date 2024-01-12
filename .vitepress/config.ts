@@ -79,28 +79,6 @@ _hmt.push(['_requirePlugin', 'UrlChangeTracker', {
         link: '/support',
       },
       {
-        text: '生态',
-        items: [
-          {
-            text: '官方',
-            items: [
-              {
-                text: 'Fantastaic-startkit',
-                link: 'https://hooray.gitee.io/fantastic-startkit',
-              },
-              {
-                text: 'Fantastaic-admin',
-                link: 'https://fantastic-admin.gitee.io',
-              },
-              {
-                text: 'One-step-admin',
-                link: 'https://one-step-admin.gitee.io',
-              },
-            ],
-          },
-        ],
-      },
-      {
         text: '下载 / 购买',
         items: [
           {
@@ -122,7 +100,8 @@ _hmt.push(['_requirePlugin', 'UrlChangeTracker', {
         link: 'https://gitee.com/one-step-admin/basic',
       },
       {
-        icon: 'github', link: 'https://github.com/one-step-admin/basic',
+        icon: 'github',
+        link: 'https://github.com/one-step-admin/basic',
       },
     ],
     sidebar: {
