@@ -1,5 +1,18 @@
+<script setup>
+import { withBase } from 'vitepress'
+</script>
+
 # 技术支持
 
-在使用框架的过程中，除了可以在该项目仓库提交 Issue 外，还可以通过以下方式可以参与交流讨论：
+## 基础版
 
-1. QQ 频道。**面向所有用户**，点击[访问](https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&appChannel=share&inviteCode=MwjoF&businessType=9&from=246610&biz=ka)，打开后请使用 QQ 扫码进入。
+在使用框架的过程中难免会遇到问题，优先推荐在仓库提交 Issue ，你可以更详细描述问题产生的操作步骤，或者提供完整的最小复现，这样做可以让更多的人参与讨论，也方便后人查阅。
+
+- [Github Issue](https://github.com/one-step-admin/basic/issues)
+- [Gitee Issue](https://gitee.com/one-step-admin/basic/issues)
+
+## 专业版
+
+购买专业版的用户可以加我微信直接和我一对一沟通使用问题。
+
+<p align="center"><img :src="withBase('/friend-wechat.png')" width="300" /></p>
