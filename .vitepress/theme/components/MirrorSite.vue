@@ -28,7 +28,7 @@ onMounted(() => {
   <div v-if="isVisible" class="banner-wrapper" role="banner">
     <div id="banner" @click="switchToMirrorSite">
       <div class="content">
-        官网打开很慢？点击访问国内镜像地址吧！
+        官网访问慢？试试国内镜像地址吧！
       </div>
       <button id="banner-close" @click.stop="closeBanner">
         <span class="close">&times;</span>
