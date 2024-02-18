@@ -9,8 +9,8 @@
 - 顶部模式
 - 侧边栏模式（含主导航）
 - 侧边栏模式（无主导航）
-- 侧边栏精简模式 <sup class="pro-badge" />
-- 顶部精简模式 <sup class="pro-badge" />
+- 侧边栏精简模式 <Badge type="pro" text="专业版" />
+- 顶部精简模式 <Badge type="pro" text="专业版" />
 
 ### 顶部模式
 
@@ -48,7 +48,7 @@ const globalSettings: Settings.all = {
 }
 ```
 
-### 侧边栏精简模式 <sup class="pro-badge" />
+### 侧边栏精简模式 <Badge type="pro" text="专业版" />
 
 ![](/menu-mode-only-side.png){data-zoomable}
 
@@ -60,7 +60,7 @@ const globalSettings: Settings.all = {
 }
 ```
 
-### 顶部精简模式 <sup class="pro-badge" />
+### 顶部精简模式 <Badge type="pro" text="专业版" />
 
 ![](/menu-mode-only-head.png){data-zoomable}
 

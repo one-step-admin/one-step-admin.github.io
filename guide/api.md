@@ -59,7 +59,7 @@ import useWindow from '@/utils/composables/useWindow'
 useWindow().remove('windowName')
 ```
 
-### 窗口全屏切换 <sup class="pro-badge" />
+### 窗口全屏切换 <Badge type="pro" text="专业版" />
 
 ```ts
 import useWindow from '@/utils/composables/useWindow'
@@ -67,7 +67,7 @@ import useWindow from '@/utils/composables/useWindow'
 useWindow().toggleMaximize('windowName')
 ```
 
-### 判断窗口是否全屏 <sup class="pro-badge" />
+### 判断窗口是否全屏 <Badge type="pro" text="专业版" />
 
 ```ts
 import useWindow from '@/utils/composables/useWindow'
@@ -95,7 +95,7 @@ eventBus.emit()
 eventBus.off()
 ```
 
-## 日期 <sup class="pro-badge" />
+## 日期 <Badge type="pro" text="专业版" />
 
 基于 [dayjs](https://day.js.org/zh-CN/) 简单封装，使用方法请查阅官方文档。
 

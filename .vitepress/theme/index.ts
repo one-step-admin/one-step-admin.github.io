@@ -1,6 +1,7 @@
 import { h, nextTick, onMounted, watch } from 'vue'
-import Theme from 'vitepress/theme'
+import Theme, { VPBadge } from 'vitepress/theme'
 import { useRoute } from 'vitepress'
+import './fonts/fira_code/fira_code.css'
 import './styles/var.css'
 import mediumZoom from 'medium-zoom'
 import MirrorSite from './components/MirrorSite.vue'
@@ -29,6 +30,7 @@ export default {
     )
   },
   enhanceApp({ app }) {
+    app.component('Badge', VPBadge)
     app.component('ZoomImg', ZoomImg)
   },
 }

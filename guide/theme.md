@@ -247,7 +247,7 @@ const globalSettings: Settings.all = {
 }
 ```
 
-## 导航栏风格 <sup class="pro-badge" />
+## 导航栏风格 <Badge type="pro" text="专业版" />
 
 ### 填充风格
 
