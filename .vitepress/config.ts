@@ -149,6 +149,7 @@ _hmt.push(['_requirePlugin', 'UrlChangeTracker', {
           text: '高级',
           items: [
             { text: '国际化', link: '/guide/i18n' },
+            { text: 'RTL 模式', link: '/guide/rtl' },
             { text: '代码文件自动生成', link: '/guide/plop' },
             { text: '标准模块', link: '/guide/plop-module' },
             { text: '常用 API', link: '/guide/api' },

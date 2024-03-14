@@ -9,14 +9,15 @@
   "main": "index.js",
   "scripts": {
     "dev": "vitepress dev .",
-    "build": "vitepress build ."
+    "build": "vitepress build .",
+    "lint:eslint": "eslint . --cache --fix"
   },
   "dependencies": {
     "medium-zoom": "^1.1.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "2.6.3",
-    "vitepress": "1.0.0-rc.41",
-    "vue": "^3.4.15"
+    "@antfu/eslint-config": "2.8.1",
+    "vitepress": "1.0.0-rc.45",
+    "vue": "^3.4.21"
   }
 }
