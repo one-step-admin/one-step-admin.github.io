@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as t,a6 as a}from"./chunks/framework.vdnn5LVu.js";const w=JSON.parse('{"title":"窗口","description":"","frontmatter":{},"headers":[],"relativePath":"guide/window.md","filePath":"guide/window.md"}'),c={name:"guide/window.md"},d=a("",4),i=[d];function s(n,_,r,p,l,u){return t(),o("div",null,i)}const h=e(c,[["render",s]]);export{w as __pageData,h as default};

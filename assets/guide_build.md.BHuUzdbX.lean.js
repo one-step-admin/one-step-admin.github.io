@@ -1,0 +1,1 @@
+import{_ as a,c as s,o as e,a6 as n}from"./chunks/framework.vdnn5LVu.js";const b=JSON.parse('{"title":"构建与预览","description":"","frontmatter":{},"headers":[],"relativePath":"guide/build.md","filePath":"guide/build.md"}'),p={name:"guide/build.md"},t=n("",13),i=[t];function o(l,c,d,r,h,u){return e(),s("div",null,i)}const m=a(p,[["render",o]]);export{b as __pageData,m as default};

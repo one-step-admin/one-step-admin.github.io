@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as e,a6 as t}from"./chunks/framework.vdnn5LVu.js";const _=JSON.parse('{"title":"开始","description":"","frontmatter":{},"headers":[],"relativePath":"guide/start.md","filePath":"guide/start.md"}'),n={name:"guide/start.md"},i=t("",5),p=[i];function o(l,c,r,d,h,k){return e(),a("div",null,p)}const g=s(n,[["render",o]]);export{_ as __pageData,g as default};
