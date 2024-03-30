@@ -4,9 +4,7 @@ import { withBase } from 'vitepress'
 
 # 购买专业版
 
-## 超值优惠合集，立减 <b style="color: #ff4400;">799</b> 元
-
-:::details 查看详情
+:::details 【活动】超值优惠合集，立减 <b style="color: #ff4400;">799</b> 元
 同时购买 One-step-admin 专业版 <sup>￥999.00</sup> 和 [Fantastic-admin](https://fantastic-admin.gitee.io) 专业版 <sup>￥1099.00</sup>
 
 原价 ￥2098.00 ，现在只需 <b style="color: #ff4400;">￥<span style="font-size: 24px;">1299</span>.00</b>
@@ -99,7 +97,7 @@ Fantastic-admin 和 One-step-admin 都是管理后台框架，它们的区别在
   </tr>
   <tr>
     <td align="center">开发与构建工具</td>
-    <td colspan="2" align="center">Vue 3 / Vite 4</td>
+    <td colspan="2" align="center">Vue 3 / Vite</td>
   </tr>
   <tr>
     <td align="center">UI 组件库</td>
