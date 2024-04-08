@@ -111,7 +111,7 @@ _hmt.push(['_requirePlugin', 'UrlChangeTracker', {
           items: [
             { text: '文档说明', link: '/guide/intro' },
             { text: '为什么选择我们 ?', link: '/guide/why' },
-            { text: 'v4.0 更新介绍', link: '/guide/v4' },
+            { text: '更新日志', link: '/guide/changelog' },
           ],
           collapsed: false,
         },

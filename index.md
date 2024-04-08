@@ -19,8 +19,8 @@ hero:
       text: 为什么选我们 ?
       link: /guide/why
     - theme: alt
-      text: v4.0 更新介绍
-      link: /guide/v4
+      text: 更新日志
+      link: /guide/changelog
     - theme: cta buy
       text: 购买合集，立减 799.00 元
       link: /buy
