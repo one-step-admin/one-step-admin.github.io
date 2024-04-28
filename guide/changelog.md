@@ -2,6 +2,35 @@
 
 只记录 feat/fix 以及破坏性更新记录。
 
+## 4.4.0
+
+:::info [基础版](https://github.com/one-step-admin/basic/releases/tag/v4.4.0)
+🚀 Features
+
+- 登录页增加扫码登录参考 &nbsp;-&nbsp; by @hooray [<samp>(bafaa)</samp>](https://github.com/one-step-admin/basic/commit/bafaa5d)
+
+🐞 Bug Fixes
+
+- 修复顶部导航鼠标滚动回弹 &nbsp;-&nbsp; by @hooray [<samp>(216ac)</samp>](https://github.com/one-step-admin/basic/commit/216ac32)
+- 修复顶部导航数量过多，导致工具栏被遮挡 &nbsp;-&nbsp; by @hooray [<samp>(f49b6)</samp>](https://github.com/one-step-admin/basic/commit/f49b6c5)
+:::
+
+:::tip [专业版](https://github.com/one-step-admin/pro/releases/tag/v4.4.0)
+🚨 Breaking Changes
+
+- 移除导航`i18n`配置项，合并到`title`配置项内 &nbsp;-&nbsp; by @hooray [<samp>(1921b)</samp>](https://github.com/one-step-admin/pro/commit/1921b2a)
+
+🚀 Features
+
+- 登录页增加扫码登录参考 &nbsp;-&nbsp; by @hooray [<samp>(fc082)</samp>](https://github.com/one-step-admin/pro/commit/fc082a6)
+
+🐞 Bug Fixes
+
+- 修复顶部导航鼠标滚动回弹 &nbsp;-&nbsp; by @hooray [<samp>(1d900)</samp>](https://github.com/one-step-admin/pro/commit/1d90000)
+- 修复顶部导航数量过多，导致工具栏被遮挡 &nbsp;-&nbsp; by @hooray [<samp>(4c70b)</samp>](https://github.com/one-step-admin/pro/commit/4c70bfc)
+- 修复水印开启报错 &nbsp;-&nbsp; by @hooray [<samp>(33add)</samp>](https://github.com/one-step-admin/pro/commit/33add9c)
+:::
+
 ## 4.3.0
 
 :::info [基础版](https://github.com/one-step-admin/basic/releases/tag/v4.3.0)
