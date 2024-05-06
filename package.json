@@ -14,11 +14,11 @@
   },
   "dependencies": {
     "medium-zoom": "^1.1.0",
-    "vitepress-plugin-comment-with-giscus": "^1.1.12"
+    "vitepress-plugin-comment-with-giscus": "^1.1.15"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "2.16.0",
+    "@antfu/eslint-config": "2.16.1",
     "vitepress": "1.1.4",
-    "vue": "^3.4.25"
+    "vue": "^3.4.26"
   }
 }

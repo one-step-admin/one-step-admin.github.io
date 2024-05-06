@@ -53,25 +53,25 @@ _hmt.push(['_requirePlugin', 'UrlChangeTracker', {
         items: [
           {
             text: '基础版',
-            link: 'https://one-step-admin.gitee.io/basic-example',
+            link: 'https://one-step-admin.github.io/basic-example',
           },
           {
             text: '专业版',
-            link: 'https://one-step-admin.gitee.io/pro-example',
+            link: 'https://one-step-admin.github.io/pro-example',
           },
-          {
-            text: '备用地址',
-            items: [
-              {
-                text: '基础版',
-                link: 'https://one-step-admin.github.io/basic-example',
-              },
-              {
-                text: '专业版',
-                link: 'https://one-step-admin.github.io/pro-example',
-              },
-            ],
-          },
+          // {
+          //   text: '备用地址',
+          //   items: [
+          //     {
+          //       text: '基础版',
+          //       link: 'https://one-step-admin.gitee.io/basic-example',
+          //     },
+          //     {
+          //       text: '专业版',
+          //       link: 'https://one-step-admin.gitee.io/pro-example',
+          //     },
+          //   ],
+          // },
         ],
       },
       {

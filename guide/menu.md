@@ -46,7 +46,7 @@ export default menus
 ```ts
 const menus: Menu.recordRaw = {
   title: '官网',
-  windowName: 'https://one-step-admin.gitee.io',
+  windowName: 'https://one-step-admin.github.io',
 }
 
 export default menus

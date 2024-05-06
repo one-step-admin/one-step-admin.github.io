@@ -14,7 +14,7 @@ export default {
   ...Theme,
   Layout() {
     return h(Theme.Layout, null, {
-      'layout-top': () => h(MirrorSite),
+      // 'layout-top': () => h(MirrorSite),
       'home-features-after': () => h(HomePreview),
       'aside-bottom': () => h(SponsorsAside),
     })
