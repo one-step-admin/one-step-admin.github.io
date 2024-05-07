@@ -15,22 +15,22 @@
 
 ![](/download.png){data-zoomable}
 
-或者也可以从 Gitee/Github 上拉取源码，但需要注意的是，这种方式拉取的是最新的代码，而不是稳定版本，可能会存在一些问题，所以请谨慎使用。
+或者也可以从 Github/Gitee 上拉取源码，但需要注意的是，这种方式拉取的是最新的代码，而不是稳定版本，可能会存在一些问题，所以请谨慎使用。
 
 ::: code-group
-
-```sh [从 Gitee 拉取]
-# 拉取框架源码
-git clone https://gitee.com/one-step-admin/basic.git
-# 拉取演示源码
-git clone -b example https://gitee.com/one-step-admin/basic.git
-```
 
 ```sh [从 Github 拉取]
 # 拉取框架源码
 git clone https://github.com/one-step-admin/basic.git
 # 拉取演示源码
 git clone -b example https://github.com/one-step-admin/basic.git
+```
+
+```sh [从 Gitee 拉取]
+# 拉取框架源码
+git clone https://gitee.com/one-step-admin/basic.git
+# 拉取演示源码
+git clone -b example https://gitee.com/one-step-admin/basic.git
 ```
 
 :::
