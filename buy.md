@@ -4,10 +4,10 @@ import { withBase } from 'vitepress'
 
 # 购买专业版
 
-:::details 【活动】超值优惠合集，立减 <b style="color: #ff4400;">799</b> 元
-同时购买 One-step-admin 专业版 <sup>￥999.00</sup> 和 [Fantastic-admin](https://fantastic-admin.github.io) 专业版 <sup>￥1099.00</sup>
+:::details 【活动】超值优惠合集，立减 <b style="color: #ff4400;">899</b> 元
+同时购买 One-step-admin 专业版 <sup>￥999.00</sup> 和 [Fantastic-admin](https://fantastic-admin.github.io) 专业版 <sup>￥1199.00</sup>
 
-原价 ￥2098.00 ，现在只需 <b style="color: #ff4400;">￥<span style="font-size: 24px;">1299</span>.00</b>
+原价 ￥2198.00 ，现在只需 <b style="color: #ff4400;">￥<span style="font-size: 24px;">1299</span>.00</b> (本价格不参与任何限时优惠活动)。
 
 <table style="width: 100%; display: table; margin: 1rem auto;">
   <tr>
@@ -50,16 +50,16 @@ Fantastic-admin 和 One-step-admin 都是管理后台框架，它们的区别在
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <div>限时优惠：<b style="color: #ff4400;">￥<span style="font-size: 24px;">799</span>.00</b></div>
+      <div>限时优惠：<b style="color: #ff4400;">￥<span style="font-size: 24px;">699</span>.00</b></div>
       <b style="color: #ccc;">原价：￥999.00</b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img :src="withBase('/qrcode-wechat.png')" />
+      <img :src="withBase('/qrcode-wechat-699.png')" />
     </td>
     <td align="center">
-      <img :src="withBase('/qrcode-alipay.png')" />
+      <img :src="withBase('/qrcode-alipay-699.png')" />
     </td>
   </tr>
   <tr>
@@ -68,6 +68,64 @@ Fantastic-admin 和 One-step-admin 都是管理后台框架，它们的区别在
     </td>
   </tr>
 </table>
+
+::: details 企业/团队购买
+
+如果你有以下场景需求，推荐购买企业/团队版：
+
+- 我们是公司，开发团队有多名开发者，需要都能加入到 Github 组织；同时考虑到人员流动，需要可以更换加入到 Github 组织的开发者账号
+- 我们是给客户开发项目的，开发完毕后需要将完整源码一起交付给客户
+- 我们希望能有一个独立的技术支持微信群，方便我们的开发者可以随时咨询框架相关问题
+
+<table style="width: 100%; display: table; margin: 1rem auto;">
+  <tr>
+    <th colspan="2" style="text-align: center;">One-step-admin 专业版 (企业/团队版)</th>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <div>限时优惠：<b style="color: #ff4400;">￥<span style="font-size: 24px;">2799</span>.00</b></div>
+      <b style="color: #ccc;">原价：￥3599.00</b>
+    </td>
+  </tr>
+  <!-- <tr>
+    <td align="center">
+      <img :src="withBase('/qrcode-wechat.png')" />
+    </td>
+    <td align="center">
+      <img :src="withBase('/qrcode-alipay.png')" />
+    </td>
+  </tr> -->
+</table>
+
+<table style="width: 100%; display: table; margin: 1rem auto;">
+  <tr>
+    <th width="40%" style="text-align: center;">⭐服务⭐</th>
+    <th width="30%" style="text-align: center;">个人</th>
+    <th width="30%" style="text-align: center;">企业/团队</th>
+  </tr>
+  <tr>
+    <td align="center">允许加入 Github 组织账号数</td>
+    <td align="center">1</td>
+    <td align="center">5</td>
+  </tr>
+  <tr>
+    <td align="center">是否允许二开后交付源码</td>
+    <td align="center"></td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td align="center">提供独立技术支持微信群</td>
+    <td align="center"></td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td align="center">是否可以开发票</td>
+    <td align="center"></td>
+    <td align="center">支持开普票，价格已含税</td>
+  </tr>
+</table>
+
+:::
 
 ## 使用说明
 
