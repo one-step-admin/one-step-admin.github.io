@@ -20,8 +20,7 @@ pnpm add naive-ui -D
 
 ## 代码调整
 
-<details>
-<summary>基础版</summary>
+::: details 基础版
 
 修改 `/tsconfig.json` 文件
 
@@ -85,10 +84,9 @@ const settingsStore = useSettingsStore()
      └─ PcasCascader
 ```
 
-</details>
+:::
 
-<details>
-<summary>专业版</summary>
+::: details 专业版
 
 修改 `/tsconfig.json` 文件
 
@@ -157,7 +155,7 @@ const settingsStore = useSettingsStore()
 </template>
 ```
 
-</details>
+:::
 
 ## 修改登录页
 

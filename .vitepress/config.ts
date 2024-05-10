@@ -159,6 +159,18 @@ _hmt.push(['_requirePlugin', 'UrlChangeTracker', {
             { text: '自定义字体', link: '/guide/font' },
             { text: '用户偏好设置', link: '/guide/preferences' },
             { text: '使用 Composition API 开发', link: '/guide/vue3-composition-api' },
+            {
+              text: '替换 UI 组件库',
+              items: [
+                { text: '替换为 Ant Design Vue', link: '/guide/replace-to-antd' },
+                { text: '替换为 Arco Design Vue', link: '/guide/replace-to-arco' },
+                { text: '替换为 Naive UI', link: '/guide/replace-to-naive' },
+                { text: '替换为 TDesign', link: '/guide/replace-to-tdesign' },
+                { text: '替换为 Vexip UI', link: '/guide/replace-to-vexip' },
+                { text: '替换为 iDux', link: '/guide/replace-to-idux' },
+              ],
+              collapsed: true,
+            },
           ],
           collapsed: false,
         },

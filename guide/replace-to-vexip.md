@@ -20,8 +20,7 @@ pnpm add vexip-ui
 
 ## 代码调整
 
-<details>
-<summary>基础版</summary>
+::: details 基础版
 
 修改 `/tsconfig.json` 文件
 
@@ -82,10 +81,9 @@ import { zhCNLocale } from 'vexip-ui'
      └─ PcasCascader
 ```
 
-</details>
+:::
 
-<details>
-<summary>专业版</summary>
+::: details 专业版
 
 修改 `/tsconfig.json` 文件
 
@@ -160,7 +158,7 @@ const settingsStore = useSettingsStore()
      └─ PcasCascader
 ```
 
-</details>
+:::
 
 ## 修改登录页
 

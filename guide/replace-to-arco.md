@@ -20,8 +20,7 @@ pnpm add @arco-design/web-vue -D
 
 ## 代码调整
 
-<details>
-<summary>基础版</summary>
+::: details 基础版
 
 修改 `/tsconfig.json` 文件
 
@@ -108,10 +107,9 @@ function updateTheme() {
      └─ PcasCascader
 ```
 
-</details>
+:::
 
-<details>
-<summary>专业版</summary>
+::: details 专业版
 
 修改 `/tsconfig.json` 文件
 
@@ -212,7 +210,7 @@ function updateTheme() {
      └─ PcasCascader
 ```
 
-</details>
+:::
 
 ## 修改登录页
 
