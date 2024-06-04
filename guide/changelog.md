@@ -2,6 +2,18 @@
 
 只记录 feat/fix 以及破坏性更新记录。
 
+## 4.4.1
+
+:::info [基础版](https://github.com/one-step-admin/basic/releases/tag/v4.4.1)
+无重大变化
+:::
+
+:::tip [专业版](https://github.com/one-step-admin/pro/releases/tag/v4.4.0)
+🐞 Bug Fixes
+
+- 修复有 badge 的一级导航在收起时展示和其他导航不一样的问题 &nbsp;-&nbsp; by @hooray [<samp>(1441c)</samp>](https://github.com/one-step-admin/pro/commit/1441c7d)
+:::
+
 ## 4.4.0
 
 :::info [基础版](https://github.com/one-step-admin/basic/releases/tag/v4.4.0)
