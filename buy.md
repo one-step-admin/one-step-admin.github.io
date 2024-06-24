@@ -4,23 +4,28 @@ import { withBase } from 'vitepress'
 
 # 购买专业版
 
-:::details 【活动】超值优惠合集，立减 <b style="color: #ff4400;">899</b> 元
-同时购买 One-step-admin 专业版 <sup>￥999.00</sup> 和 [Fantastic-admin](https://fantastic-admin.github.io) 专业版 <sup>￥1199.00</sup>
+:::details 专业版超值优惠合集①：One-step-admin ＋ Fantastic-admin
+原价：￥999.00 <sup>One-step-admin</sup> ＋ ￥1199.00 <sup>[Fantastic-admin](https://fantastic-admin.github.io)</sup> ＝ ￥2198.00
 
-原价 ￥2198.00 ，现在只需 <b style="color: #ff4400;">￥<span style="font-size: 24px;">1299</span>.00</b> (本价格不参与任何限时优惠活动)。
+合集优惠价：<b style="color: #ff4400;">￥<span style="font-size: 24px;">1299</span>.00</b> (本价格不参与任何限时优惠活动)
 
-<table style="width: 100%; display: table; margin: 1rem auto;">
-  <tr>
-    <td align="center">
-      <img :src="withBase('/qrcode-wechat-all.png')" />
-    </td>
-    <td align="center">
-      <img :src="withBase('/qrcode-alipay-all.png')" />
-    </td>
-  </tr>
-</table>
+请加作者微信进行购买
+:::
 
-Fantastic-admin 和 One-step-admin 都是管理后台框架，它们的区别在于交互方式和适用场景上的不同。Fantastic-admin 通用性强，符合大众默认的操作习惯；One-step-admin 则独创了一种全新的交互方式，提高了操作效率，有别于市面上所有管理后台框架。
+:::details 专业版超值优惠合集②：One-step-admin ＋ Fantastic-mobile
+原价：￥999.00 <sup>One-step-admin</sup> ＋ ￥599.00 <sup>[Fantastic-mobile](https://fantastic-mobile.github.io)</sup> ＝ ￥1598.00
+
+合集优惠价：<b style="color: #ff4400;">￥<span style="font-size: 24px;">899</span>.00</b> (本价格不参与任何限时优惠活动)
+
+请加作者微信进行购买
+:::
+
+:::details 专业版超值优惠合集③：One-step-admin ＋ Fantastic-admin ＋ Fantastic-mobile
+原价：￥999.00 <sup>One-step-admin</sup> ＋ ￥1199.00 <sup>[Fantastic-admin](https://fantastic-admin.github.io)</sup> ＋ ￥599.00 <sup>[Fantastic-mobile](https://fantastic-mobile.github.io)</sup> ＝ ￥2797.00
+
+合集优惠价：<b style="color: #ff4400;">￥<span style="font-size: 24px;">1499</span>.00</b> (本价格不参与任何限时优惠活动)
+
+请加作者微信进行购买
 :::
 
 ## 购买流程

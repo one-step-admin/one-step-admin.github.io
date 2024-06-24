@@ -22,7 +22,7 @@ hero:
       text: 更新日志
       link: /guide/changelog
     - theme: cta buy
-      text: 购买合集，立减 899.00 元
+      text: 购买合集，优惠更多
       link: /buy
     - theme: cta
       text: 演示地址：基础版 ↗
