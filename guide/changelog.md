@@ -2,13 +2,47 @@
 
 只记录 feat/fix 以及破坏性更新记录。
 
+## 4.5.0
+
+:::info [基础版](https://github.com/one-step-admin/basic/releases/tag/v4.5.0)
+🚨 Breaking Changes
+
+- 配置项 `menu.menuMode` 变更为 `menu.mode` &nbsp;-&nbsp; by @hooray [<samp>(10415)</samp>](https://github.com/one-step-admin/basic/commit/104154e)
+
+🚀 Features
+
+- 增加禁用开发者工具环境变量 &nbsp;-&nbsp; by @hooray [<samp>(306f3)</samp>](https://github.com/one-step-admin/basic/commit/306f357)
+- 新增哀悼模式和色弱模式 &nbsp;-&nbsp; by @hooray [<samp>(3c299)</samp>](https://github.com/one-step-admin/basic/commit/3c2992f)
+
+🐞 Bug Fixes
+
+- 修复vscode失效配置 &nbsp;-&nbsp; by @hooray [<samp>(e5cfa)</samp>](https://github.com/one-step-admin/basic/commit/e5cfac7)
+:::
+
+:::tip [专业版](https://github.com/one-step-admin/pro/releases/tag/v4.5.0)
+🚨 Breaking Changes
+
+- 配置项 `menu.menuActiveStyle` 变更为 `menu.style` &nbsp;-&nbsp; by @hooray [<samp>(fce08)</samp>](https://github.com/one-step-admin/pro/commit/fce08a8)
+- 配置项 `menu.menuMode` 变更为 `menu.mode` &nbsp;-&nbsp; by @hooray [<samp>(9091d)</samp>](https://github.com/one-step-admin/pro/commit/9091d0d)
+
+🚀 Features
+
+- 增加2种导航栏模式 `side-panel` / `head-panel` &nbsp;-&nbsp; by @hooray [<samp>(cab92)</samp>](https://github.com/one-step-admin/pro/commit/cab92cd)
+- 增加禁用开发者工具环境变量 &nbsp;-&nbsp; by @hooray [<samp>(f2ef8)</samp>](https://github.com/one-step-admin/pro/commit/f2ef86a)
+- 新增哀悼模式和色弱模式 &nbsp;-&nbsp; by @hooray [<samp>(9ebc8)</samp>](https://github.com/one-step-admin/pro/commit/9ebc840)
+
+🐞 Bug Fixes
+
+- 移除无用逻辑判断 &nbsp;-&nbsp; by @hooray [<samp>(51e90)</samp>](https://github.com/one-step-admin/pro/commit/51e9046)
+- 修复vscode失效配置 &nbsp;-&nbsp; by @hooray [<samp>(d2dda)</samp>](https://github.com/one-step-admin/pro/commit/d2ddace):::
+
 ## 4.4.1
 
 :::info [基础版](https://github.com/one-step-admin/basic/releases/tag/v4.4.1)
 无重大变化
 :::
 
-:::tip [专业版](https://github.com/one-step-admin/pro/releases/tag/v4.4.0)
+:::tip [专业版](https://github.com/one-step-admin/pro/releases/tag/v4.4.1)
 🐞 Bug Fixes
 
 - 修复有 badge 的一级导航在收起时展示和其他导航不一样的问题 &nbsp;-&nbsp; by @hooray [<samp>(1441c)</samp>](https://github.com/one-step-admin/pro/commit/1441c7d)
