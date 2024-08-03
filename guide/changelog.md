@@ -2,6 +2,38 @@
 
 只记录 feat/fix 以及破坏性更新记录。
 
+## 4.6.0
+
+:::info [基础版](https://github.com/one-step-admin/basic/releases/tag/v4.6.0)
+🚨 Breaking Changes
+
+- 移除`createInjectionKey`函数 &nbsp;-&nbsp; by @hooray [<samp>(09d49)</samp>](https://github.com/one-step-admin/basic/commit/09d4935)
+- 窗口宽度改为配置文件全局设置 &nbsp;-&nbsp; by @hooray [<samp>(fa5c5)</samp>](https://github.com/one-step-admin/basic/commit/fa5c5e2)
+
+🚀 Features
+
+- 上传组件增加自定义上传 &nbsp;-&nbsp; by @hooray [<samp>(43851)</samp>](https://github.com/one-step-admin/basic/commit/4385140)
+- FileUpload 组件文件列表增加下载功能 &nbsp;-&nbsp; by @hooray [<samp>(09b21)</samp>](https://github.com/one-step-admin/basic/commit/09b2190)
+:::
+
+:::tip [专业版](https://github.com/one-step-admin/pro/releases/tag/v4.6.0)
+🚨 Breaking Changes
+
+- 移除`createInjectionKey`函数，全局provide的`generateI18nTitle`函数放到`useMenu()`里提供 &nbsp;-&nbsp; by @hooray [<samp>(ebc63)</samp>](https://github.com/one-step-admin/pro/commit/ebc63c6)
+- 调整 `menu.enableSubMenuCollapseButton` 的展示逻辑 &nbsp;-&nbsp; by @hooray [<samp>(3a6d7)</samp>](https://github.com/one-step-admin/pro/commit/3a6d7db)
+
+🚀 Features
+
+- 上传组件增加自定义上传 &nbsp;-&nbsp; by @hooray [<samp>(dab41)</samp>](https://github.com/one-step-admin/pro/commit/dab417d)
+- 窗口宽度改为在配置文件全局设置，支持单独设置窗口宽度 &nbsp;-&nbsp; by @hooray [<samp>(3837a)</samp>](https://github.com/one-step-admin/pro/commit/3837a12)
+- FileUpload 组件文件列表增加下载功能 &nbsp;-&nbsp; by @hooray [<samp>(fd0ca)</samp>](https://github.com/one-step-admin/pro/commit/fd0caff)
+
+🐞 Bug Fixes
+
+- 修复类型警告 &nbsp;-&nbsp; by @hooray [<samp>(9783f)</samp>](https://github.com/one-step-admin/pro/commit/9783ff7)
+- 修复主题跟随系统且系统为明亮模式时，水印不生效 &nbsp;-&nbsp; by @hooray [<samp>(f9498)</samp>](https://github.com/one-step-admin/pro/commit/f949869)
+:::
+
 ## 4.5.0
 
 :::info [基础版](https://github.com/one-step-admin/basic/releases/tag/v4.5.0)
