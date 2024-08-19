@@ -26,10 +26,10 @@ hero:
       link: /buy
     - theme: cta
       text: 演示地址：基础版 ↗
-      link: https://one-step-admin.github.io/basic-example
+      link: https://one-step-admin.hurui.me/basic-example
     - theme: cta
       text: 演示地址：专业版 ↗
-      link: https://one-step-admin.github.io/pro-example
+      link: https://one-step-admin.hurui.me/pro-example
 
 features:
 - icon: 💪

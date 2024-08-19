@@ -47,7 +47,7 @@ const globalSettings: Settings.all = {
 ```ts {2-4}
 const globalSettings: Settings.all = {
   copyright: {
-    website: 'https://one-step-admin.github.io',
+    website: 'https://one-step-admin.hurui.me',
   },
 }
 ```

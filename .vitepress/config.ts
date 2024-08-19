@@ -23,7 +23,7 @@ _hmt.push(['_requirePlugin', 'UrlChangeTracker', {
 }]);
 (function() {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?f74bb3cde8d979af3d9bd804b24070a5";
+  hm.src = "https://hm.baidu.com/hm.js?d023f22d3c7fd011aed5f4499aebfabe";
   var s = document.getElementsByTagName("script")[0];
   s.parentNode.insertBefore(hm, s);
 })();
@@ -56,11 +56,11 @@ _hmt.push(['_requirePlugin', 'UrlChangeTracker', {
             items: [
               {
                 text: '基础版',
-                link: 'https://one-step-admin.github.io/basic-example',
+                link: 'https://one-step-admin.hurui.me/basic-example',
               },
               {
                 text: '专业版',
-                link: 'https://one-step-admin.github.io/pro-example',
+                link: 'https://one-step-admin.hurui.me/pro-example',
               },
             ],
           },
