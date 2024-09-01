@@ -2,6 +2,33 @@
 
 只记录 feat/fix 以及破坏性更新记录。
 
+## 4.7.0
+
+:::info [基础版](https://github.com/one-step-admin/basic/releases/tag/v4.7.0)
+🚨 Breaking Changes
+
+- 重构登录页面 &nbsp;-&nbsp; by @hooray [<samp>(b1cb9)</samp>](https://github.com/one-step-admin/basic/commit/b1cb980)
+
+🚀 Features
+
+- 扩充 unocss 自定义 shortcuts &nbsp;-&nbsp; by @hooray [<samp>(6258e)</samp>](https://github.com/one-step-admin/basic/commit/6258eec)
+- SvgIcon 组件支持传入本地图片，网络图片增加载入和失败状态 &nbsp;-&nbsp; by @hooray [<samp>(cea64)</samp>](https://github.com/one-step-admin/basic/commit/cea6403)
+- 引入 postcss-nested &nbsp;-&nbsp; by @hooray [<samp>(2ce2b)</samp>](https://github.com/one-step-admin/basic/commit/2ce2b5f)
+:::
+
+:::tip [专业版](https://github.com/one-step-admin/pro/releases/tag/v4.7.0)
+🚨 Breaking Changes
+
+- 重构登录页面 &nbsp;-&nbsp; by @hooray [<samp>(f77f3)</samp>](https://github.com/one-step-admin/pro/commit/f77f341)
+- 移除 I18nSelector 组件 &nbsp;-&nbsp; by @hooray [<samp>(83dd8)</samp>](https://github.com/one-step-admin/pro/commit/83dd819)
+
+🚀 Features
+
+- 扩充 unocss 自定义 shortcuts &nbsp;-&nbsp; by @hooray [<samp>(15a3f)</samp>](https://github.com/one-step-admin/pro/commit/15a3fe2)
+- SvgIcon 组件支持传入本地图片，网络图片增加载入和失败状态 &nbsp;-&nbsp; by @hooray [<samp>(a1a81)</samp>](https://github.com/one-step-admin/pro/commit/a1a8175)
+- 引入 postcss-nested &nbsp;-&nbsp; by @hooray [<samp>(5f4d6)</samp>](https://github.com/one-step-admin/pro/commit/5f4d6f9)
+:::
+
 ## 4.6.0
 
 :::info [基础版](https://github.com/one-step-admin/basic/releases/tag/v4.6.0)
