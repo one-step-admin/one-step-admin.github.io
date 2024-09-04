@@ -159,6 +159,7 @@ _hmt.push(['_requirePlugin', 'UrlChangeTracker', {
             { text: '标准模块', link: '/guide/plop-module' },
             { text: '常用 API', link: '/guide/api' },
             { text: '私有 Storage 数据', link: '/guide/storage' },
+            { text: '首屏 Loading', link: '/guide/loading' },
             { text: '页面水印', link: '/guide/watermark' },
             { text: '错误日志', link: '/guide/error-log' },
             { text: '自定义字体', link: '/guide/font' },
