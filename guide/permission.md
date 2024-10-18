@@ -14,9 +14,24 @@ const globalSettings: Settings.all = {
 
 在演示源码中，默认提供了两组权限，你可以在“权限验证”导航里切换帐号查看不同权限下的效果。如果使用的不是 `admin` 或 `test` 用户名登录，则在导航栏里看不到“权限验证”导航入口。
 
+## 鉴权指令
+
+对于单个元素，提供了 `v-auth` 指令。
+
+```vue-html
+<!-- 单权限验证 -->
+<button v-auth="'department.create'">新增部门</button>
+
+<!-- 多权限验证，用户只要具备其中任何一个权限，则验证通过 -->
+<button v-auth="['department.create', 'department.edit']">新增部门</button>
+
+<!-- 多权限验证，用户必须具备全部权限，才验证通过 -->
+<button v-auth.all="['department.create', 'department.edit']">新增部门</button>
+```
+
 ## 鉴权组件
 
-页面中某个模块，当前用户具备该权限是如何显示，不具备该权限又是如何显示，针对这样的需求，框架提供了 `<Auth>` 和 `<AuthAll>` 组件，具体使用如下：
+页面中某个模块，当前用户具备该权限是如何显示，不具备该权限又是如何显示，针对这样的需求，框架提供了 `<Auth>` 组件。
 
 ```vue-html
 <!-- 单权限验证 -->
@@ -36,27 +51,12 @@ const globalSettings: Settings.all = {
 </Auth>
 
 <!-- 多权限验证，用户必须具备全部权限，才验证通过 -->
-<AuthAll :value="['department.create', 'department.edit']">
+<Auth :value="['department.create', 'department.edit']" all>
   <p>你有该权限</p>
   <template #no-auth>
     <p>你没有该权限</p>
   </template>
-</AuthAll>
-```
-
-## 鉴权指令
-
-对于单个元素，也提供了 `v-auth` 和 `v-auth-all` 鉴权指令，使用上对比鉴权组件更方便，当然它能做的事情也更简单。
-
-```vue-html
-<!-- 单权限验证 -->
-<button v-auth="'department.create'">新增部门</button>
-
-<!-- 多权限验证，用户只要具备其中任何一个权限，则验证通过 -->
-<button v-auth="['department.create', 'department.edit']">新增部门</button>
-
-<!-- 多权限验证，用户必须具备全部权限，才验证通过 -->
-<button v-auth-all="['department.create', 'department.edit']">新增部门</button>
+</Auth>
 ```
 
 ## 鉴权函数

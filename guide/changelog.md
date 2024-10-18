@@ -2,6 +2,45 @@
 
 只记录 feat/fix 以及破坏性更新记录。
 
+## 4.8.0
+
+:::info [基础版](https://github.com/one-step-admin/basic/releases/tag/v4.8.0)
+🚨 Breaking Changes
+
+- 重构鉴权指令、鉴权组件 &nbsp;-&nbsp; by @hooray [<samp>(cf955)</samp>](https://github.com/one-step-admin/basic/commit/cf955b2)
+
+🐞 Bug Fixes
+
+- 修复顶部相关布局时，顶栏重复渲染 &nbsp;-&nbsp; by @hooray [<samp>(868bf)</samp>](https://github.com/one-step-admin/basic/commit/868bf06)
+- 修复vscode无法校验css文件 &nbsp;-&nbsp; by @hooray [<samp>(9bf13)</samp>](https://github.com/one-step-admin/basic/commit/9bf1369)
+
+🏎 Performance
+
+- 优化导航菜单折叠 &nbsp;-&nbsp; by @hooray [<samp>(d3f99)</samp>](https://github.com/one-step-admin/basic/commit/d3f99b0)
+:::
+
+:::tip [专业版](https://github.com/one-step-admin/pro/releases/tag/v4.8.0)
+🚨 Breaking Changes
+
+- 使用 watermark-js-plus 重构水印功能 &nbsp;-&nbsp; by @hooray [<samp>(f94a9)</samp>](https://github.com/one-step-admin/pro/commit/f94a92f)
+- 重构鉴权指令、鉴权组件 &nbsp;-&nbsp; by @hooray [<samp>(cb023)</samp>](https://github.com/one-step-admin/pro/commit/cb023c0)
+
+🚀 Features
+
+- Dayjs 国际化跟随框架设置 &nbsp;-&nbsp; by @hooray [<samp>(cc7e1)</samp>](https://github.com/one-step-admin/pro/commit/cc7e172)
+- 工具栏增加控制台切换按钮 &nbsp;-&nbsp; by @hooray [<samp>(c8158)</samp>](https://github.com/one-step-admin/pro/commit/c81586f)
+
+🐞 Bug Fixes
+
+- 修复应用配置里工具栏关闭的功能依旧会在在偏好设置里显示的bug &nbsp;-&nbsp; by @hooray [<samp>(ccb93)</samp>](https://github.com/one-step-admin/pro/commit/ccb931b)
+- 修复顶部相关布局时，顶栏重复渲染 &nbsp;-&nbsp; by @hooray [<samp>(3d043)</samp>](https://github.com/one-step-admin/pro/commit/3d0439a)
+- 修复vscode无法校验css文件 &nbsp;-&nbsp; by @hooray [<samp>(73257)</samp>](https://github.com/one-step-admin/pro/commit/73257d8)
+
+🏎 Performance
+
+- 优化导航菜单折叠 &nbsp;-&nbsp; by @hooray [<samp>(98dde)</samp>](https://github.com/one-step-admin/pro/commit/98dde14)
+:::
+
 ## 4.7.0
 
 :::info [基础版](https://github.com/one-step-admin/basic/releases/tag/v4.7.0)

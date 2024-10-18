@@ -200,7 +200,6 @@ _hmt.push(['_requirePlugin', 'UrlChangeTracker', {
           text: '扩展组件',
           items: [
             { text: 'Auth 鉴权', link: '/components/auth' },
-            { text: 'AuthAll 鉴权', link: '/components/auth-all' },
             { text: 'PageHeader 页头', link: '/components/page-header' },
             { text: 'PageMain 内容块', link: '/components/page-main' },
             { text: 'ActionContainer 固定底部操作栏', link: '/components/action-container' },
