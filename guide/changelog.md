@@ -2,6 +2,18 @@
 
 只记录 feat/fix 以及破坏性更新记录。
 
+## 4.8.1
+
+:::info [基础版](https://github.com/one-step-admin/basic/releases/tag/v4.8.1)
+无重大更新
+:::
+
+:::tip [专业版](https://github.com/one-step-admin/pro/releases/tag/v4.8.1)
+🐞 Bug Fixes
+
+- 修复国际化功能失效 &nbsp;-&nbsp; by @hooray [<samp>(afd27)</samp>](https://github.com/one-step-admin/pro/commit/afd2754)
+:::
+
 ## 4.8.0
 
 :::info [基础版](https://github.com/one-step-admin/basic/releases/tag/v4.8.0)

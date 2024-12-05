@@ -36,7 +36,7 @@ _hmt.push(['_requirePlugin', 'UrlChangeTracker', {
     },
     nav: [
       {
-        text: '文档',
+        text: '文档 <img src="https://img.shields.io/github/v/release/one-step-admin/basic?style=flat-square&label=%20&color=%2367C23B" style="display: inline-block; margin-top: -2px; margin-left: 4px; vertical-align: middle;" />',
         items: [
           {
             text: '指南',
