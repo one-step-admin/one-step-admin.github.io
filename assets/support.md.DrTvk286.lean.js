@@ -1,0 +1,1 @@
+import{c as e,o as t,a4 as r}from"./chunks/framework.D-zNm3Tp.js";const n=JSON.parse('{"title":"技术支持","description":"","frontmatter":{},"headers":[],"relativePath":"support.md","filePath":"support.md"}'),o={name:"support.md"},p=Object.assign(o,{setup(i){return(s,a)=>(t(),e("div",null,a[0]||(a[0]=[r("",19)])))}});export{n as __pageData,p as default};
