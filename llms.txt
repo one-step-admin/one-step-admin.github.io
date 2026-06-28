@@ -1,0 +1,169 @@
+# One-step Console
+
+> 像导播一样编排你的工作现场
+
+## Table of Contents
+
+### 指引
+
+- [文档说明](/guide/intro.md)
+
+### AI 技能 (Skills)
+
+- [AI 技能 (Skills)](/guide/skills.md)
+- [oc-framework-settings](/guide/skills/oc-framework-settings.md)
+- [oc-i18n-manager](/guide/skills/oc-i18n-manager.md)
+- [oc-slot-creator](/guide/skills/oc-slot-creator.md)
+- [oc-store-generator](/guide/skills/oc-store-generator.md)
+- [oc-theme-customizer](/guide/skills/oc-theme-customizer.md)
+
+### 入门
+
+- [准备工作](/guide/ready.md)
+- [开始](/guide/start.md)
+- [代码规范](/guide/coding-standard.md)
+- [环境变量](/guide/env.md)
+- [与服务端交互](/guide/axios.md)
+- [登录相关](/guide/login.md)
+- [窗口](/guide/window.md)
+- [全局状态管理](/guide/store.md)
+- [资源](/guide/resources.md)
+- [图标](/guide/icon.md)
+- [构建与预览](/guide/build.md)
+
+### 应用配置
+
+- [应用配置](/guide/settings.md)
+- [应用](/guide/settings/app.md)
+- [主题](/guide/settings/theme.md)
+- [导航菜单](/guide/settings/menu.md)
+- [工具栏](/guide/settings/toolbar.md)
+- [舞台](/guide/settings/stage.md)
+
+### 高级
+
+- [权限验证](/guide/auth.md)
+- [国际化&#x20;](/guide/i18n.md)
+- [常用 API](/guide/api.md)
+- [预留插槽](/guide/slots.md)
+- [快捷键](/guide/hotkeys.md)
+- [私有 Storage 数据&#x20;](/guide/storage.md)
+- [开发工具](/guide/devtools.md)
+- [自定义字体&#x20;](/guide/font.md)
+- [首屏 Loading](/guide/loading.md)
+- [搭配 UI 组件库](/guide/with-ui-libraries.md)
+- [Composition API](/guide/composition-api.md)
+- [JSX](/guide/jsx.md)
+
+### 其他
+
+- [框架更新](/guide/upgrade.md)
+
+### 组件
+
+- [介绍](/components.md)
+
+### 内建组件
+
+#### 基础版
+
+- [FaAlert 提示](/components/basic/OcAlert.md)
+- [FaAvatar 头像](/components/basic/OcAvatar.md)
+- [FaBadge 徽章](/components/basic/OcBadge.md)
+- [FaButton 按钮](/components/basic/OcButton.md)
+- [FaCard 卡片](/components/basic/OcCard.md)
+- [FaCheckbox 复选框](/components/basic/OcCheckbox.md)
+- [FaCollapsible 折叠面板](/components/basic/OcCollapsible.md)
+- [FaContextMenu 右键菜单](/components/basic/OcContextMenu.md)
+- [OcDescriptions 描述列表](/components/basic/OcDescriptions.md)
+- [FaDivider 分割线](/components/basic/OcDivider.md)
+- [FaDrawer 抽屉](/components/basic/OcDrawer.md)
+- [FaDropdown 下拉菜单](/components/basic/OcDropdown.md)
+- [FaFileUpload 文件上传](/components/basic/OcFileUpload.md)
+- [FaFixedBar 固定栏](/components/basic/OcFixedBar.md)
+- [FaForm 表单](/components/basic/OcForm.md)
+- [FaHoverCard 悬浮卡片](/components/basic/OcHoverCard.md)
+- [FaIcon 图标](/components/basic/OcIcon.md)
+- [FaImagePreview 图片预览](/components/basic/OcImagePreview.md)
+- [FaImageUpload 图片上传](/components/basic/OcImageUpload.md)
+- [FaInput 输入框](/components/basic/OcInput.md)
+- [FaInputOTP 验证码输入](/components/basic/OcInputOtp.md)
+- [FaKbd 键盘按键](/components/basic/OcKbd.md)
+- [FaLabel 标签](/components/basic/OcLabel.md)
+- [FaModal 对话框](/components/basic/OcModal.md)
+- [FaNumberField 数字输入框](/components/basic/OcNumberField.md)
+- [FaPageHeader 页面头部](/components/basic/OcPageHeader.md)
+- [FaPageMain 页面主内容区](/components/basic/OcPageMain.md)
+- [FaPagination 分页](/components/basic/OcPagination.md)
+- [FaPasswordStrength 密码强度](/components/basic/OcPasswordStrength.md)
+- [FaPopover 弹出框](/components/basic/OcPopover.md)
+- [FaProgress 进度条](/components/basic/OcProgress.md)
+- [FaRadioGroup 单选组](/components/basic/OcRadioGroup.md)
+- [FaScrollArea 滚动区域](/components/basic/OcScrollArea.md)
+- [FaSearchBar 搜索栏](/components/basic/OcSearchBar.md)
+- [FaSelect 选择器](/components/basic/OcSelect.md)
+- [FaSlider 滑块](/components/basic/OcSlider.md)
+- [FaSwitch 开关](/components/basic/OcSwitch.md)
+- [FaTabs 标签页](/components/basic/OcTabs.md)
+- [FaTag 标签](/components/basic/OcTag.md)
+- [FaTable 表格](/components/basic/OcTable.md)
+- [FaTextarea 文本域](/components/basic/OcTextarea.md)
+- [FaToast 轻提示](/components/basic/OcToast.md)
+- [FaTooltip 文字提示](/components/basic/OcTooltip.md)
+- [FaTrend 趋势标识](/components/basic/OcTrend.md)
+
+#### 专业版
+
+- [FaAnimatedBeam 动画光束](/components/pro/OcAnimatedBeam.md)
+- [FaAnimatedCountTo 数字动画](/components/pro/OcAnimatedCountTo.md)
+- [FaBlurReveal 模糊显现](/components/pro/OcBlurReveal.md)
+- [FaBorderBeam 边框光束](/components/pro/OcBorderBeam.md)
+- [FaCalendarDate 日期日历](/components/pro/OcCalendarDate.md)
+- [FaCalendarDateRange 日期范围日历](/components/pro/OcCalendarDateRange.md)
+- [FaCalendarMonth 月份日历](/components/pro/OcCalendarMonth.md)
+- [FaCalendarMonthRange 月份范围日历](/components/pro/OcCalendarMonthRange.md)
+- [FaCalendarYear 年份日历](/components/pro/OcCalendarYear.md)
+- [FaCalendarYearRange 年份范围日历](/components/pro/OcCalendarYearRange.md)
+- [FaDate 日期](/components/pro/OcDate.md)
+- [FaCarousel 轮播图](/components/pro/OcCarousel.md)
+- [FaCascader 级联选择器](/components/pro/OcCascader.md)
+- [FaCode 代码块](/components/pro/OcCode.md)
+- [FaCodePreview 代码预览](/components/pro/OcCodePreview.md)
+- [FaCombobox 组合框](/components/pro/OcCombobox.md)
+- [FaCountTo 数字滚动](/components/pro/OcCountTo.md)
+- [FaDigitalCard 数字卡片](/components/pro/OcDigitalCard.md)
+- [FaEmpty 空状态](/components/pro/OcEmpty.md)
+- [FaFlipCard 翻转卡片](/components/pro/OcFlipCard.md)
+- [FaFlipWords 翻转文字](/components/pro/OcFlipWords.md)
+- [FaGlowyCard 发光卡片](/components/pro/OcGlowyCard.md)
+- [FaGradientButton 渐变按钮](/components/pro/OcGradientButton.md)
+- [FaIconPicker 图标选择器](/components/pro/OcIconPicker.md)
+- [FaInteractiveButton 交互按钮](/components/pro/OcInteractiveButton.md)
+- [FaLayoutContainer 布局容器](/components/pro/OcLayoutContainer.md)
+- [FaLinkPreview 链接预览](/components/pro/OcLinkPreview.md)
+- [FaLoading 加载动画](/components/pro/OcLoading.md)
+- [FaMarquee 滚动横幅](/components/pro/OcMarquee.md)
+- [FaMention 提及](/components/pro/OcMention.md)
+- [FaMultiStepLoader 多步骤加载器](/components/pro/OcMultiStepLoader.md)
+- [FaParticlesBg 粒子背景](/components/pro/OcParticlesBg.md)
+- [FaPatternBg 图案背景](/components/pro/OcPatternBg.md)
+- [FaQrcode 二维码](/components/pro/OcQrcode.md)
+- [FaScratchOff 刮刮乐](/components/pro/OcScratchOff.md)
+- [FaScrollingText 滚动文字](/components/pro/OcScrollingText.md)
+- [FaSmoothSwipe 平滑滑动](/components/pro/OcSmoothSwipe.md)
+- [FaSparklesText 闪耀文字](/components/pro/OcSparklesText.md)
+- [FaSparkline 迷你图](/components/pro/OcSparkline.md)
+- [FaSpotlightCard 聚光灯卡片](/components/pro/OcSpotlightCard.md)
+- [FaSteps 步骤条](/components/pro/OcSteps.md)
+- [FaStorageBox 储物箱](/components/pro/OcStorageBox.md)
+- [FaTextHighlight 文字高亮](/components/pro/OcTextHighlight.md)
+- [FaTextShiny 流光文字](/components/pro/OcTextShiny.md)
+- [FaTimeAgo 相对时间](/components/pro/OcTimeAgo.md)
+- [FaTimeline 时间轴](/components/pro/OcTimeline.md)
+- [FaTree 树形控件](/components/pro/OcTree.md)
+
+### Other
+
+- [618 大促优惠](/buy-anniversary.md)
+- [技术支持](/support.md)
+- [购买永久专业版](/buy.md)

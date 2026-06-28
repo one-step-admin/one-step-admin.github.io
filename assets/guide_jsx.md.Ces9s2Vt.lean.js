@@ -1,0 +1,1 @@
+import{B as i,o as a,e,ah as n}from"./chunks/framework.CstZkd6o.js";const E=JSON.parse('{"title":"JSX","description":"","frontmatter":{},"headers":[],"relativePath":"guide/jsx.md","filePath":"guide/jsx.md"}'),t={name:"guide/jsx.md"};function l(h,s,p,r,k,d){return a(),e("div",null,[...s[0]||(s[0]=[n("",14)])])}const c=i(t,[["render",l]]);export{E as __pageData,c as default};
